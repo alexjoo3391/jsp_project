@@ -1,0 +1,14 @@
+[ DB ]
+
+* user
+-- id (pk, varchar2, 20)
+-- password (varchar2, 30)
+-- money (int)
+-- item (varchar2, 100)
+-- check_point (int)
+-- like (byte)
+
+* shop
+-- item_id (pk, varchar2, 20)
+-- name(varchar2, 30)
+-- price (int)
