@@ -9,6 +9,5 @@
 <script src="lib/script.js"></script>
 </head>
 <body>
-	
 </body>
 </html>
