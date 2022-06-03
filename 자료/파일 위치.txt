@@ -1,0 +1,1 @@
+이미지 파일 ------------> jsp_project\jsp_project\WebContent\lib\image
