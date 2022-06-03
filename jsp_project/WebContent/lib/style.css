@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+.textBox {
+    font-size: 20px;
+    height: 30px;
+    width: 500px;
+}
+
+button {
+    color: #DEC686;
+    font-size: 20px;
+    text-shadow: 2px 2px 0px #795324;
+    background: url() no-repeat; /* 이미지 삽입 */
+    background-color: #852929;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #741C1C;
+}
