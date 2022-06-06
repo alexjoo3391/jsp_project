@@ -1,3 +1,4 @@
+<%@page import="javax.swing.JFileChooser"%>
 <%@page import="java.nio.file.Files"%>
 <%@page import="java.nio.file.Paths"%>
 <%@page import="java.nio.file.Path"%>
@@ -13,18 +14,16 @@
 <link rel="stylesheet" href="lib/style.css">
 <script src="lib/script.js"></script>
 <%
-	Path currentPath = Paths.get("");
-	String path = currentPath.toAbsolutePath().toString();
-	System.out.println("현재 작업 경로: " + path);
-
-
-	BufferedReader reader = new BufferedReader(new FileReader("./lib/script.txt"));
+	String realPath = application.getRealPath("/WEB-INF/lib/script.txt");
+	System.out.print(realPath + "\n");
+	BufferedReader reader = new BufferedReader(new FileReader(realPath));
 	ArrayList<String> list = new ArrayList<String>();
 	
 	String str;
 	while ((str = reader.readLine()) != null) {
-		list.add("str");
+		list.add(str);
 	}
+
 %>
 </head>
 <body>
