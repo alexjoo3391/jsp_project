@@ -5,8 +5,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="lib/style.css">
-<script src="lib/script.js"></script>
+<link rel="stylesheet" href="WEB-INF/lib/style.css">
+<script src="WEB-INF/lib/script.js"></script>
 </head>
 <body>
 </body>
