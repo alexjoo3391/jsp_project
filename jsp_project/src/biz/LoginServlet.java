@@ -29,14 +29,19 @@ public class LoginServlet extends HttpServlet {
 		String pwd = request.getParameter("password");
 		
 		MemberDAO dao = new MemberDAO();
-		boolean result = dao.checkPassword(id, pwd);
+		boolean idResult = dao.checkId(id);
+		boolean pwdResult = dao.checkPassword(id, pwd);
 		
-		if (result) {
+		if (idResult && pwdResult) {
 			HttpSession session = request.getSession();
 			session.setAttribute("loginOK", id);
 			response.sendRedirect("/startPage.jsp");
+		} else if (idResult && !pwdResult) {
+			out.println("<script> alert('비밀번호가 올바르지 않습니다.'); history.back(); </script>");
+		} else if (!idResult && pwdResult) {
+			out.println("<script> alert('ID가 올바르지 않습니다.'); history.back(); </script>");
 		} else {
-			out.println("<script> alert('아이디와 비밀번호가 일치하지 않습니다.'); history.back(); </script>");
+			out.println("<script> alert('ID와 비밀번호가 올바르지 않습니다.'); history.back(); </script>");
 		}
 	}
 
