@@ -10,9 +10,14 @@
 </head>
 <body>
 
-<input type="text" name="id" placeholder="ID를 입력해 주세요.">
-<input type="password" name="password" placeholder="비밀번호를 입력해 주세요.">
-<input type="password" name="passwordCheck" placeholder="비밀번호를 다시 한 번 입력해 주세요.">
+<button onclick="location='startPage.jsp'">뒤로 가기</button>
+
+<form action="">
+	<input type="text" name="id" placeholder="ID를 입력해 주세요."> <br>
+	<input type="password" name="password" placeholder="비밀번호를 입력해 주세요."> <br>
+	<input type="password" name="passwordCheck" placeholder="비밀번호를 다시 한 번 입력해 주세요."> <br>
+	<input type="submit" value="가입하기">
+</form>
 
 </body>
 </html>

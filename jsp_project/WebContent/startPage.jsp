@@ -10,9 +10,26 @@
 </head>
 <body>
 
+	<%
+		String id = (String)session.getAttribute("loginOK");
+	
+		if (id != null) {
+	%>
+
 <!-- onclick : 원하는 페이지로 이동할 수 있는 속성 -->
+<button>게임 시작</button>
+<button>로그아웃</button>
+
+	<%
+		} else {
+	%>
+	
 <button onclick="location='loginPage.jsp'">로그인</button>
 <button onclick="location='joinPage.jsp'">회원가입</button>
 
+	<%
+		}
+	%>
+	
 </body>
 </html>
