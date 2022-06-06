@@ -1,21 +1,33 @@
-	@charset "UTF-8";
+@charset "UTF-8";
 
-.textBox {
-    font-size: 20px;
-    height: 30px;
-    width: 500px;
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 button {
     color: #DEC686;
-    font-size: 20px;
+    font-family: 'HeirofLightBold';
+    font-size: 50px;
     text-shadow: 2px 2px 0px #795324;
-    background: url() no-repeat; /* 이미지 삽입 */
-    background-color: #852929;
-    padding: 10px 20px 10px 20px;
+    background: url("lib/image/button_background.png") no-repeat;
+    background-size: cover;
+	border: 2px solid #847550;
+    width: 420px;
+    height: 160px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #741C1C;
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.5), -4px -4px 30px 0px rgba(0, 0, 0, 0.200), 7px 7px 20px 0px rgba(0, 0, 0, 0.200), 4px 4px 30px 0px rgba(0, 0, 0, 0.200);
 }
