@@ -22,12 +22,38 @@ button {
     background: url("lib/image/button_background.png") no-repeat;
     background-size: cover;
 	border: 2px solid #847550;
-    width: 420px;
-    height: 160px;
+    width: 400px;
+    height: 140px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 button:hover {
     box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.5), -4px -4px 30px 0px rgba(0, 0, 0, 0.200), 7px 7px 20px 0px rgba(0, 0, 0, 0.200), 4px 4px 30px 0px rgba(0, 0, 0, 0.200);
+}
+
+/* StartPage */
+
+#loginBtn {
+    position: absolute;
+    top: 700px;
+    left: 550px;
+}
+
+#joinBtn {
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+}
+
+#startBtn {
+    position: absolute;
+    top: 700px;
+    left: 550px;
+}
+
+#logoutBtn {
+    position: absolute;
+    top: 700px;
+    left: 1000px;
 }
