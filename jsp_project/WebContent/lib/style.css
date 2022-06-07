@@ -19,7 +19,6 @@ button {
     font-family: 'HeirofLightBold';
     font-size: 50px;
     text-shadow: 2px 2px 0px #795324;
-    background: url("lib/image/button_background.png") no-repeat;
     background-size: cover;
 	border: 2px solid #847550;
     width: 400px;
@@ -32,28 +31,82 @@ button:hover {
     box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.5), -4px -4px 30px 0px rgba(0, 0, 0, 0.200), 7px 7px 20px 0px rgba(0, 0, 0, 0.200), 4px 4px 30px 0px rgba(0, 0, 0, 0.200);
 }
 
-/* StartPage */
+.backBtn {
+    width: 140px;
+    height: 120px;
+}
 
-#loginBtn {
+.backBtn:hover {
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.submitBtn{
+    color: #DEC686;
+    font-family: 'HeirofLightBold';
+    font-size: 50px;
+    text-shadow: 2px 2px 0px #795324;
+    background-size: cover;
+	border: 2px solid #847550;
+    width: 400px;
+    height: 140px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submitBtn:hover{
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.5), -4px -4px 30px 0px rgba(0, 0, 0, 0.200), 7px 7px 20px 0px rgba(0, 0, 0, 0.200), 4px 4px 30px 0px rgba(0, 0, 0, 0.200);
+}
+
+/* Start Page */
+
+#spLoginBtn {
     position: absolute;
     top: 700px;
     left: 550px;
 }
 
-#joinBtn {
+#spJoinBtn {
     position: absolute;
     top: 700px;
     left: 1000px;
 }
 
-#startBtn {
+#spStartBtn {
     position: absolute;
     top: 700px;
     left: 550px;
 }
 
-#logoutBtn {
+#spLogoutBtn {
     position: absolute;
     top: 700px;
     left: 1000px;
+}
+
+/* Login Page */
+
+#lpIdTextbox {
+    font-family: 'HeirofLightRegular';
+    font-size: 40px;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+
+#lpPwdTextbox {
+    font-family: 'HeirofLightRegular';
+    font-size: 40px;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: 600px;
+}
+
+#lpLoginBtn {
+    position: absolute;
+    top: 720px;
+    left: 750px;
 }

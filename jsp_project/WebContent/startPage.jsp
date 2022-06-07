@@ -22,15 +22,15 @@
 	%>
 
 <!-- onclick : 원하는 페이지로 이동할 수 있는 속성 -->
-<button id="startBtn">게임 시작</button>
-<button id="logoutBtn">로그아웃</button>
+<button id="spStartBtn">게임 시작</button>
+<button id="spLogoutBtn">로그아웃</button>
 
 	<%
 		} else {
 	%>
 	
-<button onclick="location='loginPage.jsp'" id="loginBtn">로그인</button>
-<button onclick="location='joinPage.jsp'" id="joinBtn">회원가입</button>
+<button onclick="location='loginPage.jsp'" id="spLoginBtn">로그인</button>
+<button onclick="location='joinPage.jsp'" id="spJoinBtn">회원가입</button>
 
 	<%
 		}
