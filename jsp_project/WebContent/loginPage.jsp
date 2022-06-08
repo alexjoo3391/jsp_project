@@ -18,9 +18,9 @@
 </head>
 <body>
 
-<button onclick="location='startPage.jsp'" class="backBtn"></button>
+<button onclick="location='index.jsp'" class="backBtn"></button>
 
-<form action="" method="post">
+<form action="/loginPage" method="post">
 	<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="lpIdTextbox"> <br>
 	<input type="password" name="password" placeholder=" 비밀번호를 입력해 주세요." id="lpPwdTextbox"> <br>
 	<input type="submit" value="로그인" class="submitBtn" id="lpLoginBtn">

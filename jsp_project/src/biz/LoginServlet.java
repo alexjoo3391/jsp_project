@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 
 import dao.MemberDAO;
 
-@WebServlet("/LoginServlet")
+@WebServlet("/loginPage")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -26,6 +26,7 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String id = request.getParameter("id");
+		out.print(id);
 		String pwd = request.getParameter("password");
 		
 		MemberDAO dao = new MemberDAO();
@@ -36,6 +37,7 @@ public class LoginServlet extends HttpServlet {
 			HttpSession session = request.getSession();
 			session.setAttribute("loginOK", id);
 			response.sendRedirect("/startPage.jsp");
+			out.println("<script> alert('로그인 성공'); </script>");
 		} else if (idResult && !pwdResult) {
 			out.println("<script> alert('비밀번호가 올바르지 않습니다.'); history.back(); </script>");
 		} else if (!idResult && pwdResult) {
