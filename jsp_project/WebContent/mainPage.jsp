@@ -13,9 +13,9 @@
 <link rel="stylesheet" href="lib/style.css">
 <script type="text/javascript" src="lib/script.js"></script>
 <%
-	String realPath = application.getRealPath("/WEB-INF/lib/test.txt");
+	String realPath = application.getRealPath("/lib/");
 	System.out.print(realPath + "\n");
-	BufferedReader reader = new BufferedReader(new FileReader(realPath));
+	BufferedReader reader = new BufferedReader(new FileReader(realPath + "test.txt"));
 	ArrayList<String> list = new ArrayList<String>();
 	
 	String str;
@@ -27,9 +27,11 @@
 </head>
 <body>
 	<input type="hidden" value="<%= list %>">
+	<div class="background">
+	</div>
     <div class="container">
         <div class="profile">
-            <img src="" alt="">
+			<img src="lib/image/temp.gif">
             <p></p>
         </div>
         <div class="text">
