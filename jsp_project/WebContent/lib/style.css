@@ -110,3 +110,34 @@ button:hover {
     top: 720px;
     left: 750px;
 }
+
+/* 게임화면 css */
+
+.text-container {
+    position: absolute;
+    width: 80vw;
+    border: 2px solid black;
+    height: 22vh;
+    left: 10vw;
+    top: 70vh;
+   	display: flex;
+}
+
+.text-container .profile {
+	width: 22vh;
+	height: 100%;
+	border-right: 1px solid black;
+}
+
+.text-container .profile .img {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.text-container .profile .img img {
+	width: 100%;
+}
+
+.text-container .profile p {
+	margin: 0;
+}

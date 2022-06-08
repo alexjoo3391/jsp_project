@@ -28,14 +28,15 @@
 <body>
 	<input type="hidden" value="<%= list %>">
 	<div class="background">
+		<img alt="" src="">
 	</div>
-    <div class="container">
+    <div class="text-container">
         <div class="profile">
-			<img src="lib/image/temp.gif">
-            <p></p>
+			<div class="img"><img src="lib/image/temp.gif"></div>
+            <p>프로필 ㅇㅇ</p>
         </div>
         <div class="text">
-            <p>test</p>
+            <p>대사 </p>
         </div>
     </div>
 </body>
