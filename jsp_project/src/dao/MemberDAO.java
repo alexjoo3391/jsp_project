@@ -15,7 +15,7 @@ public class MemberDAO {
 	
 	// 유저 정보를 삽입하는 메소드
 	public void insertUser(String id, String pwd) {
-		String sql = "INSERT INTO user VALUES(?, ?)";
+		String sql = "INSERT INTO member VALUES(?, ?)";
 		conn = JDBCUtil.getConnection();
 		
 		try {
@@ -34,7 +34,7 @@ public class MemberDAO {
 	
 	// ID를 체크하는 메소드
 	public boolean checkId(String id) {
-		String sql = "SELECT id FROM user WHERE id=?";
+		String sql = "SELECT id FROM member WHERE id=?";
 		boolean result = false;
 		
 		conn = JDBCUtil.getConnection();
@@ -45,6 +45,7 @@ public class MemberDAO {
 			rs = pstmt.executeQuery();
 			
 			if (rs.next()) {
+				System.out.println("@@1");
 				result = true;
 			}
 		} catch (SQLException e) {
@@ -58,7 +59,7 @@ public class MemberDAO {
 	
 	// 비밀번호를 체크하는 메소드
 	public boolean checkPassword(String id, String pwd) {
-		String sql = "SELECT password FROM user WHERE id=?";
+		String sql = "SELECT password FROM member WHERE id=?";
 		boolean result = false;
 		
 		conn = JDBCUtil.getConnection();
