@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import dao.MemberDAO;
 
-@WebServlet("/JoinServlet")
+@WebServlet("/joinPage")
 public class JoinServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -34,6 +34,7 @@ public class JoinServlet extends HttpServlet {
 			out.println("<script> alert('비밀번호가 일치하지 않습니다.'); history.back(); </script>");
 		} else {
 			dao.insertUser(id, pwd);
+			out.println("<script> alert('회원가입에 성공하였습니다.'); window.location.href='/index.jsp'; </script>");
 		}
 	}
 

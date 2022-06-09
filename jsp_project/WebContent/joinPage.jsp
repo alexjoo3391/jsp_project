@@ -18,9 +18,9 @@
 </head>
 <body>
 
-<button onclick="location='startPage.jsp'" class="backBtn"></button>
+<button onclick="location='index.jsp'" class="backBtn"></button>
 
-<form action="" method="post">
+<form action="/joinPage" method="post">
 	<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="jpIdTextbox"> <br>
 	<input type="password" name="password" placeholder=" 비밀번호를 입력해 주세요." id="jpPwdTextbox"> <br>
 	<input type="password" name="passwordCheck" placeholder=" 비밀번호를 다시 한 번 입력해 주세요." id="jpPwdCkTextbox"> <br>
