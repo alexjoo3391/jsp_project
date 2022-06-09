@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>남주의 복지를 책임지겠습니다</title>
 <!-- 외부에 있는 CSS 파일 불러오기 -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
@@ -23,7 +23,9 @@
 
 <!-- onclick : 원하는 페이지로 이동할 수 있는 속성 -->
 <button id="spStartBtn">게임 시작</button>
-<button id="spLogoutBtn">로그아웃</button>
+<form action="/logoutPage" method="post">
+	<button id="spLogoutBtn">로그아웃</button>
+</form>
 
 	<%
 		} else {

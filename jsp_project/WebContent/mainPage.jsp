@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>남주의 복지를 책임지겠습니다</title>
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/script.js"></script>
 <%
