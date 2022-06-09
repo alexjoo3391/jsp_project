@@ -26,7 +26,6 @@ public class LoginServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String id = request.getParameter("id");
-		out.print(id);
 		String pwd = request.getParameter("password");
 		
 		MemberDAO dao = new MemberDAO();
@@ -36,7 +35,7 @@ public class LoginServlet extends HttpServlet {
 		if (idResult && pwdResult) {
 			HttpSession session = request.getSession();
 			session.setAttribute("loginOK", id);
-			response.sendRedirect("/startPage.jsp");
+			response.sendRedirect("/index.jsp");
 			out.println("<script> alert('로그인 성공'); </script>");
 		} else if (idResult && !pwdResult) {
 			out.println("<script> alert('비밀번호가 올바르지 않습니다.'); history.back(); </script>");
