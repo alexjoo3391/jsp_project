@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/script.js"></script>
 <%
-	String realPath = application.getRealPath("/lib/");
+	String realPath = application.getRealPath("/resources/");
 	System.out.print(realPath + "\n");
 	BufferedReader reader = new BufferedReader(new FileReader(realPath + "test.txt"));
 	ArrayList<String> list = new ArrayList<String>();
@@ -23,6 +23,9 @@
 		list.add(str);
 	}
 	System.out.print(list);
+	
+	String[] text = list.get(0).split(":");
+	
 %>
 </head>
 <body>
@@ -32,11 +35,11 @@
 	</div>
     <div class="text-container">
         <div class="profile">
-			<div class="img"><img src="lib/image/temp.gif"></div>
-            <p>프로필 ㅇㅇ</p>
+			<div class="img"><img src="resources/image/temp.gif"></div>
+            <p><%= text[0] %></p>
         </div>
         <div class="text">
-            <p>대사 </p>
+            <p><%= text[1] %></p>
         </div>
     </div>
 </body>
