@@ -11,6 +11,11 @@
 <meta charset="UTF-8">
 <title>남주의 복지를 책임지겠습니다</title>
 <link rel="stylesheet" href="css/style.css">
+<style>
+	.text-container .profile p {
+		background: url("resources/image/button_background.png") no-repeat;
+	}
+</style>
 <script type="text/javascript" src="js/script.js"></script>
 <%
 	String realPath = application.getRealPath("/resources/");

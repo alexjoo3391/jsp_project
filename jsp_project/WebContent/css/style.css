@@ -111,44 +111,6 @@ button:hover {
     left: 750px;
 }
 
-/* Main Page */
-
-.text-container {
-    position: absolute;
-    width: 80vw;
-    border: 2px solid black;
-    height: 22vh;
-    left: 10vw;
-    top: 70vh;
-   	display: flex;
-}
-
-.text-container .profile {
-	width: 22vh;
-	height: 100%;
-	border-right: 1px solid black;
-}
-
-.text-container .profile .img {
-    width: 100%;
-    margin: 0px auto;
-}
-
-.text-container .profile .img img {
-    width: 100%;
-    height: 22vh;
-    object-fit: cover;
-}
-
-.text-container .profile p {
-    top: -25px;
-    width: 100%;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.533);
-    text-align: center;
-    margin: 0px;
-}
-
 /* Join Page */
 
 #jpIdTextbox {
@@ -185,4 +147,51 @@ button:hover {
     position: absolute;
     top: 750px;
     left: 750px;
+}
+
+/* Main Page */
+
+.text-container {
+    color: white;
+    font-family: 'HeirofLightRegular';
+    font-size: 25px;
+    border: 3px double #DEC686;
+    outline: 1px solid #795324;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    width: 1300px;
+    height: 230px;
+    left: 110px;
+    top: 480px;
+}
+
+.text-container .profile {
+	width: 250px;
+	height: 100%;
+	border-right: 1px double black;
+}
+
+.text-container .profile .img {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.text-container .profile .img img {
+    width: 100%;
+    height: 22vh;
+    object-fit: cover;
+}
+
+/* 이름 */
+.text-container .profile p {
+    color: #DEC686;
+    font-family: 'HeirofLightBold';
+    text-align: center;
+    width: 50px;
+    height: 140px;
+    margin: 0px;
+    position: relative;
+    top: 25px;
+    width: 100%;
 }
