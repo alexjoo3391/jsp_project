@@ -10,8 +10,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="lib/style.css">
-<script type="text/javascript" src="lib/script.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/script.js"></script>
 <%
 	String realPath = application.getRealPath("/lib/");
 	System.out.print(realPath + "\n");

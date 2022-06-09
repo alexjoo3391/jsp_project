@@ -6,13 +6,13 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- 외부에 있는 CSS 파일 불러오기 -->
-<link rel="stylesheet" type="text/css" href="lib/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	.backBtn {
-		background: url("lib/image/backBtn_background.png") no-repeat;
+		background: url("resources/image/backBtn_background.png") no-repeat;
 	}
 	.submitBtn {
-		background: url("lib/image/button_background.png") no-repeat;
+		background: url("resources/image/button_background.png") no-repeat;
 	}
 </style>
 </head>
