@@ -45,7 +45,6 @@ public class MemberDAO {
 			rs = pstmt.executeQuery();
 			
 			if (rs.next()) {
-				System.out.println("@@1");
 				result = true;
 			}
 		} catch (SQLException e) {

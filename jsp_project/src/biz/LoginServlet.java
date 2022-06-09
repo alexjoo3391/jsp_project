@@ -40,8 +40,6 @@ public class LoginServlet extends HttpServlet {
 			out.println("<script> alert('로그인 성공'); </script>");
 		} else if (idResult && !pwdResult) {
 			out.println("<script> alert('비밀번호가 올바르지 않습니다.'); history.back(); </script>");
-		} else if (!idResult && pwdResult) {
-			out.println("<script> alert('ID가 올바르지 않습니다.'); history.back(); </script>");
 		} else {
 			out.println("<script> alert('ID와 비밀번호가 올바르지 않습니다.'); history.back(); </script>");
 		}
