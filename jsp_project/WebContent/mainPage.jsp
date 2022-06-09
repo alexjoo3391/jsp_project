@@ -35,11 +35,11 @@
 	</div>
     <div class="text-container">
         <div class="profile">
-			<div class="img"><img src="resources/image/temp.gif"></div>
-            <p><%= text[0] %></p>
+			<div class="img"><img src="resources/image/<%= text[0] %>"></div>
+            <p><%= text[1] %></p>
         </div>
         <div class="text">
-            <p><%= text[1] %></p>
+            <p><%= text[2] %></p>
         </div>
     </div>
 </body>

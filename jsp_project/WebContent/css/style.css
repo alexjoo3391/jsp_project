@@ -130,16 +130,23 @@ button:hover {
 }
 
 .text-container .profile .img {
-	margin: 0 auto;
-	width: 80%;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .text-container .profile .img img {
-	width: 100%;
+    width: 100%;
+    height: 22vh;
+    object-fit: cover;
 }
 
 .text-container .profile p {
-	margin: 0;
+    top: -25px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.533);
+    text-align: center;
+    margin: 0px;
 }
 
 /* Join Page */
