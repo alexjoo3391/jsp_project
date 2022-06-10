@@ -8,9 +8,6 @@
 <!-- 외부에 있는 CSS 파일 불러오기 -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
-	body {
-		background: url("resources/image/background.jpg");
-	}
 	.backBtn {
 		background: url("resources/image/backBtn_background.png") no-repeat;
 	}

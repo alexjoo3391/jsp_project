@@ -86,4 +86,29 @@ public class MemberDAO {
 		return result;
 	}
 	
+	// 3. Password
+	
+	public String searchPwd(String id) {
+		String sql = "SELECT password FROM member WHERE id=?";
+		String pwd = null;
+		
+		conn = JDBCUtil.getConnection();
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			
+			while (rs.next()) {
+				pwd = rs.getString("password");
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtil.close(conn, pstmt, rs);
+		}
+		
+		return pwd;
+	}
+	
 }
