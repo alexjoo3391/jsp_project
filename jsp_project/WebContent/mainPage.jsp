@@ -16,28 +16,24 @@
 		background: url("resources/image/button_background.png") no-repeat;
 	}
 </style>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <%
-	String realPath = application.getRealPath("/resources/");
-	System.out.print(realPath + "\n");
-	BufferedReader reader = new BufferedReader(new FileReader(realPath + "test.txt"));
-	ArrayList<String> list = new ArrayList<String>();
+	String realPath = application.getRealPath("/resources/"); // 파일 경로 가져오기
+	BufferedReader reader = new BufferedReader(new FileReader(realPath + "test.txt")); // 파일 경로에 있는 텍스트 파일 가져오기
+	ArrayList<String> list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
 	
 	String str;
 	while ((str = reader.readLine()) != null) {
-		list.add(str);
+		list.add(str); // 변수에 텍스트 파일 내용 담기
 	}
-	System.out.print(list);
 	
-	String[] text = list.get(0).split(":");
+	String[] text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
 	
 %>
 </head>
 <body>
 	<input type="hidden" value="<%= list %>">
-	<div class="background">
-		<img alt="" src="">
-	</div>
     <div class="text-container">
         <div class="profile">
 			<div class="img"><img src="resources/image/<%= text[0] %>"></div>

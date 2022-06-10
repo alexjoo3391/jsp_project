@@ -7,6 +7,7 @@
 <title>남주의 복지를 책임지겠습니다</title>
 <!-- 외부에 있는 CSS 파일 불러오기 -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 <style>
 	body {
 		background: url("resources/image/background.jpg");
