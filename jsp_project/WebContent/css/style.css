@@ -32,8 +32,8 @@ button:hover {
 }
 
 .backBtn {
-    width: 140px;
-    height: 120px;
+    width: 70px;
+    height: 50px;
 }
 
 .backBtn:hover {
@@ -43,18 +43,18 @@ button:hover {
 .submitBtn{
     color: #DEC686;
     font-family: 'HeirofLightBold';
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 2px 2px 0px #795324;
     background-size: cover;
 	border: 2px solid #847550;
-    width: 300px;
-    height: 110px;
+    width: 200px;
+    height: 60px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .submitBtn:hover{
-    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.5), -4px -4px 30px 0px rgba(0, 0, 0, 0.200), 7px 7px 20px 0px rgba(0, 0, 0, 0.200), 4px 4px 30px 0px rgba(0, 0, 0, 0.200);
+    box-shadow: -7px -7px 10px 0px rgba(255, 255, 255, 0.5), -4px -4px 15px 0px rgba(0, 0, 0, 0.200), 7px 7px 20px 0px rgba(0, 0, 0, 0.200), 4px 4px 15px 0px rgba(0, 0, 0, 0.200);
 }
 
 /* Start Page */
@@ -84,35 +84,34 @@ button:hover {
 }
 
 /* Login Page */
-
-.background {
-    
+div {
+    border: 1px solid #847550;
 }
 
 #lpIdTextbox {
     font-family: 'HeirofLightRegular';
-    font-size: 30px;
+    font-size: 22px;
     width: 400px;
     height: 70px;
-    position: absolute;
-    top: 350px;
-    left: 600px;
+    position: relative;
+    top: 380px;
+    left: 750px;
 }
 
 #lpPwdTextbox {
     font-family: 'HeirofLightRegular';
-    font-size: 30px;
+    font-size: 22px;
     width: 400px;
     height: 70px;
     position: absolute;
-    top: 500px;
-    left: 600px;
+    top: 480px;
+    left: 750px;
 }
 
 #lpLoginBtn {
     position: absolute;
-    top: 720px;
-    left: 750px;
+    top: 680px;
+    left: 840px;
 }
 
 /* Join Page */
