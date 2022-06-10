@@ -8,6 +8,9 @@
 <!-- 외부에 있는 CSS 파일 불러오기 -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
+	body {
+		background: url("resources/image/joinBackground.png") no-repeat;
+	}
 	.backBtn {
 		background: url("resources/image/backBtn_background.png") no-repeat;
 	}
@@ -20,7 +23,6 @@
 
 <button onclick="location='index.jsp'" class="backBtn"></button>
 
-<img src="resources/image/joinLogo.png">
 <form action="/joinPage" method="post">
 	<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="jpIdTextbox"> <br>
 	<input type="password" name="password" placeholder=" 비밀번호를 입력해 주세요." id="jpPwdTextbox"> <br>

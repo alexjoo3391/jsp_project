@@ -1,4 +1,3 @@
-
 CREATE TABLE member (
 	id VARCHAR2(20) PRIMARY KEY,
 	password VARCHAR2(30),
