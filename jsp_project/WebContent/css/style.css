@@ -119,6 +119,7 @@ div {
 #jpIdTextbox {
     font-family: 'HeirofLightRegular';
     font-size: 40px;
+    background: rgba(white, white, white, 0.5);
     width: 400px;
     height: 70px;
     position: absolute;
