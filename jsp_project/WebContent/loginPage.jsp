@@ -22,6 +22,7 @@
 <button onclick="location='index.jsp'" class="backBtn"></button>
 
 <div>
+	<img src="resources/image/loginLogo.png">
 	<form action="/loginPage" method="post">
 		<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="lpIdTextbox"> <br>
 		<input type="password" name="password" placeholder=" 비밀번호를 입력해 주세요." id="lpPwdTextbox"> <br>
