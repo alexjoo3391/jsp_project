@@ -24,13 +24,19 @@ public class SignoutServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
+		// id 가져오기 수정
 		String id = request.getParameter("id");
 		
 		MemberDAO dao = new MemberDAO();
 		
-		dao.deleteUser(id);
+		int result = dao.deleteUser(id);
 		
-		out.println("<script> alert('회원탈퇴가 완료되었습니다.'); window.location.href='/index.jsp'; </script>");
+		if (result > 0) {
+			out.println("<script> alert('회원탈퇴가 완료되었습니다.'); window.location.href='/index.jsp'; </script>");
+		} else {
+			System.out.println("회원탈퇴 실패");
+		}
+		
 	}
 
 }

@@ -117,20 +117,24 @@ public class MemberDAO {
 	
 	// 4. Sign out
 	
-	public void deleteUser(String id) {
+	public int deleteUser(String id) {
 		String sql = "DELETE FROM member WHERE id=?";
+		int result = 0;
 		
+		System.out.println(id);
 		conn = JDBCUtil.getConnection();
 		
 		try {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, id);
-			pstmt.executeUpdate();
+			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
 			JDBCUtil.close(conn, pstmt);
 		}
+		
+		return result;
 	}
 	
 }
