@@ -6,6 +6,19 @@
 <meta charset="UTF-8">
 <title>남주의 복지를 책임지겠습니다</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+	body {
+		background-image: url("resources/image/passwordBackground.png");
+		background-repeat : no-repeat;
+        background-size : cover;
+	}
+	.backBtn {
+		background: url("resources/image/backBtn_background.png") no-repeat;
+	}
+	.submitBtn {
+		background: url("resources/image/button_background.png") no-repeat;
+	}
+</style>
 </head>
 <body>
 
