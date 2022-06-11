@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import dao.MemberDAO;
+
 @WebServlet("/signoutPage")
 public class SignoutServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -21,6 +23,14 @@ public class SignoutServlet extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		
 		PrintWriter out = response.getWriter();
+		
+		String id = request.getParameter("id");
+		
+		MemberDAO dao = new MemberDAO();
+		
+		dao.deleteUser(id);
+		
+		out.println("<script> alert('회원탈퇴가 완료되었습니다.'); window.location.href='/index.jsp'; </script>");
 	}
 
 }

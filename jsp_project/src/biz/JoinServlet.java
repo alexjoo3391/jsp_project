@@ -33,8 +33,12 @@ public class JoinServlet extends HttpServlet {
 		if (!pwd.equals(pwdck)) {
 			out.println("<script> alert('비밀번호가 일치하지 않습니다.'); history.back(); </script>");
 		} else {
-			dao.insertUser(id, pwd);
-			out.println("<script> alert('회원가입에 성공하였습니다.'); window.location.href='/index.jsp'; </script>");
+			int result = dao.insertUser(id, pwd);
+			if (result > 0) {
+				out.println("<script> alert('회원가입에 성공하였습니다.'); window.location.href='/index.jsp'; </script>");
+			} else {
+				out.println("<script> alert('이미 존재하는 ID입니다. 다른 ID를 입력해 주세요.'); history.back(); </script>");
+			}
 		}
 	}
 

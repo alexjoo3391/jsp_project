@@ -22,13 +22,16 @@
 </head>
 <body>
 
-<button onclick="location='index.jsp'" class="backBtn"></button>
+<%
+	String id = (String)session.getAttribute("loginOK");
+%>
 
+현재 로그인 된 계정의 ID는 '<b><%= id %></b>'입니다. <br>
+탈퇴를 진행하시겠습니까?
 <form action="/signoutPage" method="post">
-	<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="lpIdTextbox"> <br>
-	<input type="password" name="password" placeholder=" 비밀번호를 입력해 주세요." id="lpPwdTextbox"> <br>
-	<input type="submit" value="탈퇴하기" class="submitBtn" id="lpLoginBtn">
+	<input type="submit" value="예" class="submitBtn" id="lpLoginBtn">
 </form>
+<button onclick="location='index.jsp'">아니오</button>
 
 </body>
 </html>

@@ -14,9 +14,11 @@ public class MemberDAO {
 	// 1. Sign in
 	
 	// 유저 정보를 삽입하는 메소드
-	public void insertUser(String id, String pwd) {
+	public int insertUser(String id, String pwd) {
 		String sql = "INSERT INTO member VALUES(?, ?, ?, ?, ?, ?)";
 		conn = JDBCUtil.getConnection();
+		
+		int result = 0;
 		
 		try {
 			pstmt = conn.prepareStatement(sql);
@@ -26,12 +28,14 @@ public class MemberDAO {
 			pstmt.setString(4, null);
 			pstmt.setInt(5, 0);
 			pstmt.setInt(6, 0);
-			pstmt.executeUpdate();
+			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
 			JDBCUtil.close(conn, pstmt);
 		}
+		
+		return result;
 	}
 	
 	// 2. Login
@@ -113,7 +117,7 @@ public class MemberDAO {
 	
 	// 4. Sign out
 	
-	public void deleteUser(String id, String pwd) {
+	public void deleteUser(String id) {
 		String sql = "DELETE FROM member WHERE id=?";
 		
 		conn = JDBCUtil.getConnection();
@@ -121,11 +125,6 @@ public class MemberDAO {
 		try {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, id);
-			pstmt.setString(2, pwd);
-			pstmt.setInt(3, 0);
-			pstmt.setString(4, null);
-			pstmt.setInt(5, 0);
-			pstmt.setInt(6, 0);
 			pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
