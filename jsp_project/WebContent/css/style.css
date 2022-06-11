@@ -84,10 +84,6 @@ button:hover {
 }
 
 /* Login Page */
-div {
-    border: 1px solid #847550;
-}
-
 #lpIdTextbox {
     font-family: 'HeirofLightRegular';
     font-size: 22px;
@@ -95,7 +91,7 @@ div {
     height: 70px;
     position: relative;
     top: 380px;
-    left: 750px;
+    left: 1000px;
 }
 
 #lpPwdTextbox {

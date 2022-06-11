@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 <style>
 	body {
-		background: url("resources/image/loginBackground.png") no-repeat;
+		background-image: url("resources/image/loginBackground.png");
+		background-repeat : no-repeat;
+        background-size : cover;
 	}
 	.backBtn {
 		background: url("resources/image/backBtn_background.png") no-repeat;

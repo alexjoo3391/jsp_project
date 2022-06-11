@@ -9,7 +9,9 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	body {
-		background: url("resources/image/joinBackground.png") no-repeat;
+		background: url("resources/image/joinBackground.png");
+		background-repeat : no-repeat;
+        background-size : cover;
 	}
 	.backBtn {
 		background: url("resources/image/backBtn_background.png") no-repeat;
