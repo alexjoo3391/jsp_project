@@ -11,7 +11,7 @@ public class MemberDAO {
 	PreparedStatement pstmt = null;
 	ResultSet rs = null;
 	
-	// 1. Join
+	// 1. Sign in
 	
 	// 유저 정보를 삽입하는 메소드
 	public void insertUser(String id, String pwd) {
@@ -109,6 +109,29 @@ public class MemberDAO {
 		}
 		
 		return pwd;
+	}
+	
+	// 4. Sign out
+	
+	public void deleteUser(String id, String pwd) {
+		String sql = "DELETE FROM member WHERE id=?";
+		
+		conn = JDBCUtil.getConnection();
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			pstmt.setString(2, pwd);
+			pstmt.setInt(3, 0);
+			pstmt.setString(4, null);
+			pstmt.setInt(5, 0);
+			pstmt.setInt(6, 0);
+			pstmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtil.close(conn, pstmt);
+		}
 	}
 	
 }
