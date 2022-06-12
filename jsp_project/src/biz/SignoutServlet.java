@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import dao.MemberDAO;
 
@@ -24,8 +25,9 @@ public class SignoutServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		// id 가져오기 수정
-		String id = request.getParameter("id");
+		HttpSession session = request.getSession();
+		
+		String id = (String)session.getAttribute("loginOK");
 		
 		MemberDAO dao = new MemberDAO();
 		
@@ -34,7 +36,7 @@ public class SignoutServlet extends HttpServlet {
 		if (result > 0) {
 			out.println("<script> alert('회원탈퇴가 완료되었습니다.'); window.location.href='/index.jsp'; </script>");
 		} else {
-			System.out.println("회원탈퇴 실패");
+			out.println("<script> alert('회원탈퇴에 실패하였습니다.'); history.back(); </script>");
 		}
 		
 	}
