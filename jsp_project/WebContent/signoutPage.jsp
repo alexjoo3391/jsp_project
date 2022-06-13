@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	body {
-		background: url("resources/image/joinBackground.png");
+		background: url("resources/image/signoutBackground.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
