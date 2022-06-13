@@ -15,6 +15,11 @@
 	.text-container .profile p {
 		background: url("resources/image/background/button_background.png") no-repeat;
 	}
+	
+	body {
+		background-repeat : no-repeat;
+        background-size : cover;
+	}
 </style>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>
@@ -29,18 +34,17 @@
 	}
 	
 	String[] text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
-	
 %>
 </head>
-<body>
+<body style="background-image: url('resources/image/<%= text[0] %>');">
 	<input type="hidden" value="<%= list %>">
     <div class="text-container">
         <div class="profile">
-			<div class="img"><img src="resources/image/<%= text[0] %>"></div>
-            <p><%= text[1] %></p>
+			<div class="img"><img src="resources/image/<%= text[1] %>"></div>
+            <p><%= text[2] %></p>
         </div>
         <div class="text">
-            <p><%= text[2] %></p>
+            <p><%= text[3] %></p>
         </div>
     </div>
 </body>
