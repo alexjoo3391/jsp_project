@@ -18,13 +18,13 @@
 	}
 
 	body {
-		background: url("resources/image/signoutBackground.png");
+		background: url("resources/image/background/signout_background.png");
 		background-repeat : no-repeat;
 		background-size: cover;
 		background-position: center center;
 	}
 	.submitBtn {
-		background: url("resources/image/button_background.png") no-repeat;
+		background: url("resources/image/background/button_background.png") no-repeat;
 	}
 </style>
 </head>
