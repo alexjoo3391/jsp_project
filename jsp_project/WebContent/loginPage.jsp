@@ -9,18 +9,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 <style>
 	body {
-		background-image: url("resources/image/loginBackground.png");
+		background-image: url("resources/image/background/login_background.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
 	.backBtn {
-		background: url("resources/image/backBtn_background.png") no-repeat;
+		background: url("resources/image/background/backBtn_background.png") no-repeat;
 	}
 	.submitBtn {
-		background: url("resources/image/button_background.png") no-repeat;
+		background: url("resources/image/background/button_background.png") no-repeat;
 	}
 	#lpPasswordBtn {
-		background: url("resources/image/button_background.png") no-repeat;
+		background: url("resources/image/background/pwdBtn_background.png") no-repeat;
 	}
 </style>
 </head>

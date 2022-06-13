@@ -35,7 +35,7 @@ public class PasswordServlet extends HttpServlet {
 		
 		System.out.println(pwd);
 		// pwd를 알림창에 띄우려면?
-		// out.println("<script> alert(pwd); history.back(); </script>");	
+		out.println("<script> alert(pwd); </script>");	
 	}
 
 }
