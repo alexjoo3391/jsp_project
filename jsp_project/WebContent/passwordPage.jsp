@@ -8,15 +8,15 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	body {
-		background-image: url("resources/image/passwordBackground.png");
+		background-image: url("resources/image/background/password_background.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
 	.backBtn {
-		background: url("resources/image/backBtn_background.png") no-repeat;
+		background: url("resources/image/background/backBtn_background.png") no-repeat;
 	}
 	.submitBtn {
-		background: url("resources/image/button_background.png") no-repeat;
+		background: url("resources/image/background/button_background.png") no-repeat;
 	}
 </style>
 </head>
