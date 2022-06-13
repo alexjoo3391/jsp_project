@@ -7,13 +7,21 @@
 <title>남주의 복지를 책임지겠습니다</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+		width: 100vw;
+		height: 100vh;
+	}
+
 	body {
 		background: url("resources/image/joinBackground.png");
 		background-repeat : no-repeat;
-        background-size : cover;
-	}
-	.backBtn {
-		background: url("resources/image/backBtn_background.png") no-repeat;
+		background-size: cover;
+		background-position: center center;
 	}
 	.submitBtn {
 		background: url("resources/image/button_background.png") no-repeat;
@@ -25,13 +33,14 @@
 <%
 	String id = (String)session.getAttribute("loginOK");
 %>
-
-현재 로그인 된 계정의 ID는 '<b><%= id %></b>'입니다. <br>
-탈퇴를 진행하시겠습니까?
+<h2 class="signoutText">
+	현재 로그인 된 계정의 ID는 '<b><%= id %></b>'입니다. <br>
+	탈퇴를 진행하시겠습니까?
+</h2>
 <form action="/signoutPage" method="post">
-	<input type="submit" value="예" class="submitBtn" id="lpLoginBtn">
+	<input type="submit" value="예" class="signoutSubmmit submitBtn">
 </form>
-<button onclick="location='index.jsp'">아니오</button>
+<button onclick="location='index.jsp'" class="signoutBack submitBtn">아니오</button>
 
 </body>
 </html>

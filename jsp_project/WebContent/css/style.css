@@ -14,6 +14,10 @@
     font-style: normal;
 }
 
+* {
+	font-family: 'HeirofLightBold';
+}
+
 button {
     color: #DEC686;
     font-family: 'HeirofLightBold';
@@ -216,6 +220,30 @@ button:hover {
     width: 100%;
     height: 22vh;
     object-fit: cover;
+}
+
+/* sign out page */
+
+.signoutSubmmit, .signoutBack {
+	position: absolute;
+	top: 70vh;
+}
+
+.signoutSubmmit {
+	left: 50vw;
+	transform: translate(-110%);
+}
+
+.signoutBack {
+	left: 50vw;
+	transform: translate(+10%);
+}
+
+h2.signoutText {
+	position: absolute;
+	top: 40vh;
+	left: 50vw;
+	transform: translate(-50%);
 }
 
 /* 이름 */
