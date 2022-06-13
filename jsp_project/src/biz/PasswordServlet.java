@@ -33,9 +33,7 @@ public class PasswordServlet extends HttpServlet {
 			out.println("<script> alert('해당 ID를 찾을 수 없습니다. 다시 입력해 주세요.'); history.back(); </script>");	
 		}
 		
-		System.out.println(pwd);
-		// pwd를 알림창에 띄우려면?
-		out.println("<script> alert(pwd); </script>");	
+		out.println("<script> alert('"+pwd+"'); history.back();  </script>");	
 	}
 
 }

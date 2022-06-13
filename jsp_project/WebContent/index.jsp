@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	button {
-		background: url("resources/image/background/button_background.png") no-repeat;
+		background: url("resources/image/background/startBtn_background.png") no-repeat;
 	}
 </style>
 </head>
