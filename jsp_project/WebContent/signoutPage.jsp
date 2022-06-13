@@ -18,7 +18,7 @@
 	}
 
 	body {
-		background: url("resources/image/joinBackground.png");
+		background: url("resources/image/signoutBackground.png");
 		background-repeat : no-repeat;
 		background-size: cover;
 		background-position: center center;
