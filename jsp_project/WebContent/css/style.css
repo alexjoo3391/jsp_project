@@ -21,12 +21,12 @@
 button {
     color: #DEC686;
     font-family: 'HeirofLightBold';
-    font-size: 50px;
+    font-size: 40px;
     text-shadow: 2px 2px 0px #795324;
     background-size: cover;
 	border: 2px solid #847550;
-    width: 400px;
-    height: 140px;
+    width: 270px;
+    height: 90px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -64,28 +64,57 @@ button:hover {
 
 /* Start Page (index) */
 
+#spSignoutBtn {
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    left: 1750px;
+}
+
+#spSignoutBtn:hover {
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
 #spLoginBtn {
     position: absolute;
     top: 700px;
-    left: 550px;
+    left: 50px;
+}
+
+#spLoginBtn:hover {
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.5) inset;
 }
 
 #spJoinBtn {
     position: absolute;
-    top: 700px;
-    left: 1000px;
+    top: 820px;
+    left: 50px;
+}
+
+#spJoinBtn:hover {
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.5) inset;
 }
 
 #spStartBtn {
     position: absolute;
     top: 700px;
-    left: 550px;
+    left: 50px;
+}
+
+#spStartBtn:hover {
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.5) inset;
 }
 
 #spLogoutBtn {
     position: absolute;
-    top: 700px;
-    left: 1000px;
+    top: 820px;
+    left: 50px;
+}
+
+#spLogoutBtn:hover {
+    box-shadow: 4px 4px 30px 0px rgba(0, 0, 0, 0.5) inset;
 }
 
 /* Login Page */

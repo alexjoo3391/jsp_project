@@ -27,7 +27,9 @@
 	%>
 
 <!-- onclick : 원하는 페이지로 이동할 수 있는 속성 -->
-<button  onclick="location='mainPage.jsp'" id="spStartBtn">게임 시작</button>
+<button onclick="location='signoutPage.jsp'" id="spSignoutBtn">회원탈퇴</button>
+
+<button onclick="location='mainPage.jsp'" id="spStartBtn">게임 시작</button>
 <form action="/logoutPage" method="post">
 	<button id="spLogoutBtn">로그아웃</button>
 </form>
