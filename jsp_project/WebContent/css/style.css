@@ -14,6 +14,10 @@
     font-style: normal;
 }
 
+* {
+	font-family: 'HeirofLightBold';
+}
+
 button {
     color: #DEC686;
     font-family: 'HeirofLightBold';
@@ -91,8 +95,8 @@ button:hover {
     width: 400px;
     height: 70px;
     position: relative;
-    top: 210px;
-    left: 550px;
+    top: 300px;
+    left: 740px;
 }
 
 #lpPwdTextbox {
@@ -101,14 +105,14 @@ button:hover {
     width: 400px;
     height: 70px;
     position: relative;
-    top: 240px;
-    left: 550px;
+    top: 330px;
+    left: 740px;
 }
 
 #lpLoginBtn {
     position: relative;
-    top: 340px;
-    left: 520px;
+    top: 450px;
+    left: 720px;
 }
 
 #lpPasswordBtn {
@@ -123,8 +127,8 @@ button:hover {
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    top: 280px;
-    left: 750px;
+    top: 390px;
+    left: 940px;
 }
 
 /* Join Page */
@@ -216,6 +220,30 @@ button:hover {
     width: 100%;
     height: 22vh;
     object-fit: cover;
+}
+
+/* sign out page */
+
+.signoutSubmmit, .signoutBack {
+	position: absolute;
+	top: 70vh;
+}
+
+.signoutSubmmit {
+	left: 50vw;
+	transform: translate(-110%);
+}
+
+.signoutBack {
+	left: 50vw;
+	transform: translate(+10%);
+}
+
+h2.signoutText {
+	position: absolute;
+	top: 40vh;
+	left: 50vw;
+	transform: translate(-50%);
 }
 
 /* 이름 */
