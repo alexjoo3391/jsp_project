@@ -16,7 +16,7 @@
 		background: url("resources/image/background/backBtn_background.png") no-repeat;
 	}
 	.submitBtn {
-		background: url("resources/image/background/button_background.png") no-repeat;
+		background: url("resources/image/background/pwdBtn_background.png") no-repeat;
 	}
 </style>
 </head>
