@@ -49,15 +49,17 @@
     </div>
     
    	<!-- 미니게임 도입부 -->
-    <h3>  
-		어이어이, 기사 양반... 여기는 내 구역인데 어딜 마음대로 들어오려 하나- <br>
-		나랑 게임을 하나 해서 이겨야 올라갈 수 있게 해주지 <br>
-		여기 3개의 호두가 있는데... 속이 들어있는 호두가 뭘지 맞춰봐
-	</h3>
-	<form action="/minigamePage" method="post">
-		<input type="text" name="input" placeholder="1, 2, 3 중에 하나를 입력해 주세요.">
-		<input type="submit" value="결정">
-	</form>
+    <div class="minigame">
+    	<h3>  
+			어이어이, 기사 양반... 여기는 내 구역인데 어딜 마음대로 들어오려 하나- <br>
+			나랑 게임을 하나 해서 이겨야 올라갈 수 있게 해주지 <br>
+			여기 3개의 호두가 있는데... 속이 들어있는 호두가 뭘지 맞춰봐
+		</h3>
+		<form action="/minigamePage" method="post">
+			<input type="text" name="input" placeholder="1, 2, 3 중에 하나를 입력해 주세요.">
+			<input type="submit" value="결정">
+		</form>
+    </div>
 	
 </body>
 </html>
