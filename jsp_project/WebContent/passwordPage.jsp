@@ -22,12 +22,12 @@
 </head>
 <body>
 
-<button onclick="location='loginPage.jsp'" class="backBtn"></button>
+	<button onclick="location='loginPage.jsp'" class="backBtn"></button>
 
-<form action="/passwordPage" method="post">
-	<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="ppIdTextbox"> <br>
-	<input type="submit" value="비밀번호 찾기" class="submitBtn" id="ppSearchBtn">
-</form>
+	<form action="/passwordPage" method="post">
+		<input type="text" name="id" placeholder=" ID를 입력해 주세요." id="ppIdTextbox"> <br>
+		<input type="submit" value="비밀번호 찾기" class="submitBtn" id="ppSearchBtn">
+	</form>
 
 </body>
 </html>
