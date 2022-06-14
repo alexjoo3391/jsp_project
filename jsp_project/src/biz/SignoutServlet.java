@@ -24,7 +24,6 @@ public class SignoutServlet extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		
 		PrintWriter out = response.getWriter();
-		
 		HttpSession session = request.getSession();
 		
 		String id = (String)session.getAttribute("loginOK");
@@ -38,7 +37,6 @@ public class SignoutServlet extends HttpServlet {
 		} else {
 			out.println("<script> alert('회원탈퇴에 실패하였습니다.'); history.back(); </script>");
 		}
-		
 	}
 
 }

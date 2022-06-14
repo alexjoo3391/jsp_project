@@ -23,7 +23,6 @@ public class MinigameServlet extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		
 		PrintWriter out = response.getWriter();
-		
 		HttpSession session = request.getSession();
 		
 		Random random = new Random();
@@ -33,7 +32,6 @@ public class MinigameServlet extends HttpServlet {
 		String playerRs = request.getParameter("input");
 				
 		if (comRs.equals("1")) {
-			System.out.println(comRs);
 			if (playerRs.equals("1")) {
 				session.setAttribute("resultOK", true);
 				response.sendRedirect("/minigamePage.jsp");
@@ -60,7 +58,6 @@ public class MinigameServlet extends HttpServlet {
 		} else if (!playerRs.equals("1") && !playerRs.equals("2") && !playerRs.equals("3")  ) {
 			out.println("<script> alert('1, 2, 3 중 하나를 입력해 주세요.'); history.back(); </script>");
 		}
-		
 	}
 	
 }

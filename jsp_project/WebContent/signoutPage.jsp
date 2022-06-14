@@ -30,19 +30,19 @@
 </head>
 <body>
 
-<%
-	String id = (String)session.getAttribute("loginOK");
-%>
+	<%
+		String id = (String)session.getAttribute("loginOK");
+	%>
 
-<h2 class="signoutText">
-	현재 로그인 된 계정의 ID는 '<b><%= id %></b>'입니다. <br>
-	탈퇴를 진행하시겠습니까?
-</h2>
+	<h2 class="signoutText">
+		현재 로그인 된 계정의 ID는 '<b><%= id %></b>'입니다. <br>
+		탈퇴를 진행하시겠습니까?
+	</h2>
 
-<form action="/signoutPage" method="post">
-	<input type="submit" value="예" class="signoutSubmmit submitBtn">
-</form>
-<button onclick="location='index.jsp'" class="signoutBack submitBtn">아니오</button>
+	<form action="/signoutPage" method="post">
+		<input type="submit" value="예" class="signoutSubmmit submitBtn">
+	</form>
+	<button onclick="location='index.jsp'" class="signoutBack submitBtn">아니오</button>
 
 </body>
 </html>
