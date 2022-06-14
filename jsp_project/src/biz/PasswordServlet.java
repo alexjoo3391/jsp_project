@@ -33,7 +33,7 @@ public class PasswordServlet extends HttpServlet {
 			out.println("<script> alert('해당 ID를 찾을 수 없습니다. 다시 입력해 주세요.'); history.back(); </script>");	
 		}
 		
-		out.println("<script> alert('"+pwd+"'); history.back();  </script>");	
+		out.println("<script> alert('" + id + "님의 비밀번호는 " + pwd + "입니다.'); history.back();  </script>");	
 	}
 
 }
