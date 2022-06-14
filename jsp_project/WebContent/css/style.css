@@ -269,3 +269,9 @@ h2.signoutText {
 	left: 50vw;
 	transform: translate(-50%);
 }
+
+/* Minigame Page */
+
+h2 {
+    border: 1px solid black;
+}
