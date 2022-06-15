@@ -101,7 +101,7 @@ ballroom.png:shame.JPG:아스테리온: 그래요~~ 당신의 친구라면 당�
 ballroom.png:smile_buree.png:록스버그 3세 부리:(얼굴을 붉히며) 나 별로 안친절해요.. 당신이라서 그런…
 ballroom.png:expression_dung.png:아이리스: 어? 부리양!
 ballroom.png:::그때 아이리스가 분위기를 와장창 깨며 록스버그에게 다가왔다.
-ballroom.png:smile_buree.png:록스버그 3세 부리:(얼굴에 손부채질을하며) 어머 덩양 오랜만이에요 하하..
+ballroom.png:smile_buree.png:록스버그 3세 부리:(얼굴에 손부채질을 하며) 어머 덩양 오랜만이에요 하하..
 ballroom.png:expression_dung.png:아이리스:(의아해하며)우리 어제도 만난잖아요! 그리고 혹시 어디 아파요? 얼굴이 빨개요.
 ballroom.png:smile_buree.png:록스버그 3세 부리: (횡설수설하며) 아 맞다... 그랬었죠... 그리고 괜찮아요!
 ballroom.png:expression_dung.png:아이리스:혹시 힘들면 말해야해요...! 어? 저 분은 누구신가요?
@@ -303,34 +303,34 @@ kitchen.png:expression_dung.png:아이리스:(살짝 웃으며) 그랬으면 좋
 kitchen.png:expression_dung.png:아이리스:그럼 나 가볼게!
 kitchen.png:chef.png:주방장:네~ 아가씨 아스테리온경과의 사랑... 전 응원합니다!!!
 kitchen.png:shock_dung.png:아이리스:뭐? 나 아직 누구한테 주는지 말 안했거든???
-garden.png:::아이리스는 즐거운 얼굴로 소리치며 케이크를 들고 아스테리온을 만나러 갔다.
-garden.png:::하지만 아스테리온을 만나긴 쉽지 않았다.
-garden.png:expression_dung.png:아이리스:하... 대체 어디 있는 거야? 어! 저기 아스테리온씨 어디있는 지 아니?
-garden.png:kids.png:꼬마:움… 몰라용
-garden.png:expression_dung.png:아이리스:저기 아스테리온씨 보셨나요?
-garden.png:man.png:행인:못 본 거 같네요
-garden.png:::아이리스는 한참을 그를 찾아다녔지만 찾을 수 없었고 저녁이 다 되어서야 지친 몸을 이끌고 집 정원으로 들었다.
-garden.png:expression_dung.png:아이리스:무슨 되는 일이 없냐…하..
-garden.png:defult.JPG:아스테리온:아이리스양! 
-garden.png:expression_dung.png:아이리스:어…? 아스테리온씨? 왜 여기 있어요?
-garden.png:defult.JPG:아스테리온:아이리스양이 보고 싶어서 계속 기다렸어요
-garden.png:expression_dung.png:아이리스:저도 오늘 하루종일 아스테리온씨만 찾아다녔어요…
-garden.png:defult.JPG:아스테리온:저를요? 왜요?
-garden.png:expression_dung.png:아이리스:오늘 아스테리온씨 생일이잖아요!
-garden.png:defult.JPG:아스테리온:아…
-garden.png:expression_dung.png:아이리스:본인 생일도 까먹으면 어떡해요…! 나 말고 누가 챙겨준다고
-garden.png:defult.JPG:아스테리온:고마워요… 근데 저건 뭐예요?
-garden.png:expression_dung.png:아이리스:앗 저건… 아스테리온씨 주려고 만든 케이크인데 모양이…
-garden.png:defult.JPG:아스테리온:직접 만든거에요?
-garden.png:expression_dung.png:아이리스:네... 그런데 모양도 이상하고 많이 탔어요...
+garden.jpg:::아이리스는 즐거운 얼굴로 소리치며 케이크를 들고 아스테리온을 만나러 갔다.
+garden.jpg:::하지만 아스테리온을 만나긴 쉽지 않았다.
+garden.jpg:expression_dung.png:아이리스:하... 대체 어디 있는 거야? 어! 저기 아스테리온씨 어디있는 지 아니?
+garden.jpg:kids.png:꼬마:움… 몰라용
+garden.jpg:expression_dung.png:아이리스:저기 아스테리온씨 보셨나요?
+garden.jpg:man.png:행인:못 본 거 같네요
+garden.jpg:::아이리스는 한참을 그를 찾아다녔지만 찾을 수 없었고 저녁이 다 되어서야 지친 몸을 이끌고 집 정원으로 들었다.
+garden.jpg:expression_dung.png:아이리스:무슨 되는 일이 없냐…하..
+garden.jpg:defult.JPG:아스테리온:아이리스양! 
+garden.jpg:expression_dung.png:아이리스:어…? 아스테리온씨? 왜 여기 있어요?
+garden.jpg:defult.JPG:아스테리온:아이리스양이 보고 싶어서 계속 기다렸어요
+garden.jpg:expression_dung.png:아이리스:저도 오늘 하루종일 아스테리온씨만 찾아다녔어요…
+garden.jpg:defult.JPG:아스테리온:저를요? 왜요?
+garden.jpg:expression_dung.png:아이리스:오늘 아스테리온씨 생일이잖아요!
+garden.jpg:defult.JPG:아스테리온:아…
+garden.jpg:expression_dung.png:아이리스:본인 생일도 까먹으면 어떡해요…! 나 말고 누가 챙겨준다고
+garden.jpg:defult.JPG:아스테리온:고마워요… 근데 저건 뭐예요?
+garden.jpg:expression_dung.png:아이리스:앗 저건… 아스테리온씨 주려고 만든 케이크인데 모양이…
+garden.jpg:defult.JPG:아스테리온:직접 만든거에요?
+garden.jpg:expression_dung.png:아이리스:네... 그런데 모양도 이상하고 많이 탔어요...
 cake.png:::아스테리온은 아무말없이 케이크를 모두 먹어치웠다.
-garden.png:shame.JPG:아스테리온:너무 맛있는데요? 정말 고마워요…
-garden.png:expression_dung.png:아이리스:다 탔는데 뭐가 맛있어요...
-garden.png:defult.JPG:아스테리온:누가 생일 케이크 챙겨준 게 너무 오랜만이기도 하고… 직접 만들어 준건 아이리스가 처음이에요. 여기서도, 원래 그곳에서도...
-garden.png:::정환은 무뚝뚝한 성격 탓에 주변에 사람이 많지 않았다. 자취를 하고 나서는 그나마 먹던 미역국조차 못먹고 생일은 항상 그냥 지나가기 마련이었다. 그래서인지 아스테리온은 이 작은 케이크가 너무 소중했고 그 무엇보다 맛있었다.
-garden.png:smile_dung.png:아이리스:이제 내가 자주 해줄게요…!
-garden.png:shame.JPG:아스테리온:'아이리스 같이 좋은 사람을 내가 좋아해도 괜찮은걸까? 그녀가 괜찮다면… 그녀를 놓치고 싶지 않아...'
-garden.png:::아스테리온은 무언가를 다짐했다.
+garden.jpg:shame.JPG:아스테리온:너무 맛있는데요? 정말 고마워요…
+garden.jpg:expression_dung.png:아이리스:다 탔는데 뭐가 맛있어요...
+garden.jpg:defult.JPG:아스테리온:누가 생일 케이크 챙겨준 게 너무 오랜만이기도 하고… 직접 만들어 준건 아이리스가 처음이에요. 여기서도, 원래 그곳에서도...
+garden.jpg:::정환은 무뚝뚝한 성격 탓에 주변에 사람이 많지 않았다. 자취를 하고 나서는 그나마 먹던 미역국조차 못먹고 생일은 항상 그냥 지나가기 마련이었다. 그래서인지 아스테리온은 이 작은 케이크가 너무 소중했고 그 무엇보다 맛있었다.
+garden.jpg:smile_dung.png:아이리스:이제 내가 자주 해줄게요…!
+garden.jpg:shame.JPG:아스테리온:'아이리스 같이 좋은 사람을 내가 좋아해도 괜찮은걸까? 그녀가 괜찮다면… 그녀를 놓치고 싶지 않아...'
+garden.jpg:::아스테리온은 무언가를 다짐했다.
 
 [에피소드5]
 dung_room_2.png:::아스테리온은 아이리스에게 고백을 하기위해 주변에 조언을 구하기로 했다.
@@ -358,12 +358,12 @@ throne.png:defult.JPG:아스테리온:네? 따님이 세분인데 하나 밖에 
 throne.png:hwan.jpg:아이리스 기므 환:? 미친게냐 이 미친 기사 나부랭이를 내쫒거라
 throne.png:defult.JPG:아스테리온:안됩니다…!!! 전 꼭 아이리스양에게 고백을 해야한다고… ㅇ...
 throne.png:::저항했지만 기사에게 뒷목을 맞고 기절하여 내쫒겼다.
-garden.png:::잠시후 아스테리온이 깨어나고….
-garden.png:fisrt.JPEG:아스테리온:으윽… 여기가 어디… 아! 그래 여기는 아이리스 양의 집 앞이지...
-garden.png:crying.PNG:아스테리온:하… 난 그냥 고백을 하고 싶을 뿐이라고… 그래 오늘 밤을 노려보자.
-garden.png:::그렇게 밤이 된 후
-garden.png:cry_dung.png:아이리스:아버지가 반대하시다니… 아스테리온씨… 보고 싶어…
-garden.png:fever.JPEG:아스테리온:어떻게 들어가야하지? 창문으로 들어가야하나? 그래도 난 현대의 준법 정신을 가지고 있는 멋진 공대생 녀석인걸… 어쩔 수 없지 난 법보단 사랑인걸…
+garden.jpg:::잠시후 아스테리온이 깨어나고….
+garden.jpg:fisrt.JPEG:아스테리온:으윽… 여기가 어디… 아! 그래 여기는 아이리스 양의 집 앞이지...
+garden.jpg:crying.PNG:아스테리온:하… 난 그냥 고백을 하고 싶을 뿐이라고… 그래 오늘 밤을 노려보자.
+garden.jpg:::그렇게 밤이 된 후
+garden.jpg:cry_dung.png:아이리스:아버지가 반대하시다니… 아스테리온씨… 보고 싶어…
+garden.jpg:fever.JPEG:아스테리온:어떻게 들어가야하지? 창문으로 들어가야하나? 그래도 난 현대의 준법 정신을 가지고 있는 멋진 공대생 녀석인걸… 어쩔 수 없지 난 법보단 사랑인걸…
 여기서 미니게임.
 
 [올라간 후]
