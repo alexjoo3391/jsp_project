@@ -1,40 +1,52 @@
-dung_room.png:::다음날
-dung_room.png:derision_buree.png:록스버그:아이리스양! 나랑 파티 갈래요? 오늘은 술 없이 간단히 한다고 하더라구요~
-dung_room.png:expression_dung.png:아이리스:좋아요!
-dung_room.png:::어제 기분이 상했던 록스버그가 아무 일 없다는 듯이 찾아와 파티에 가자고 함이 무언가 부자연스러웠지만 아이리스는 그녀가 기분이 상한지도 몰랐기에 이상함을 느끼지 못하고 따라갔다.
-dung_room.png:expression_dung.png:아이리스: 저 준비 다 했어요!
-dung_room.png:::그렇게 아이리스는 록스버그를 따라 파티에 가게되었다.
-dung_room.png:::하지만 그 티파티에 가는 것은 아이리스가 다가 아니었다.
-dung_room.png:::록스버그의 계획에는 아스테리온도 있어야했기에 아스테리온도 자연스럽게 동석하게 되었다.
-ballroom.png:smile_dung.png:아이리스:어? 아스테리온씨! 안녕하세요!
-ballroom.png:defult.JPG:아스테리온:아이리스양 반가워요
-ballroom.png:expression_buree.png:록스버그:아스테리온씨 눈에는 제가 안 보이나 보네요?
-ballroom.png:first.JPEG:아스테리온:앗….죄송해요 반가운 마음에 하하
-ballroom.png:expression_buree.png:록스버그: 저는 별로 반갑지 않나보네요?
-ballroom.png:defult.JPG:아스테리온:아이~ 그런 뜻 아닌거 아시면서~~~ 록스버그양이 초대해주신거니까 오실걸 알았지만 아이리스양은 오실지 몰랐으니까…
-ballroom.png:expression_buree.png:록스버그:하…잡담은 그만하고 들어가죠
-ballroom.png:expression_buree.png:록스버그:'내가 이러는건 다 아이리스 때문이야. 나도 너의 치부를 건들고 싶진 않았어.'
-ballroom.png:smile_dung.png:아이리스:오늘 파티도 분명 재밌을거야! 아스테리온씨까지 있으니 더더 재밌겠지?
-ballroom.png:expression_buree.png:록스버그:그래…재밌을거 같네
-ballroom.png:::아이리스는 아무것도 모른체 록스버그의 일명 아이리스 맥이기 계획에 동참하는 영애들과 함께 수다를 떨고 있었다. 그때 서로의 눈치를 살피더니 록스버그가 운을 띄웠다.
-ballroom.png:derision_buree.png:록스버그:아 맞다 아이리스 저번에 수술한 곳은 괜찮니?
-ballroom.png:shock_dung.png:아이리스:어? 부리양 왜그래요... 하하…
-ballroom.png:fever.JPEG:아스테리온:아이리스양 어디 아파요? 무슨 수술인데요?
-ballroom.png:expression_dung.png:아이리스:아무것도 아... ㄴ
-ballroom.png:derision_buree.png:록스버그:(말을 끊으며) 덩양 코 수술 했잖아요~~~
-ballroom.png:friend_2.jpg:친구 2:엄청 아프다는데 진짜 독하게 그걸 또 하더라고요~~~
-ballroom.png:friend_1.jpg:친구 1:저 예전 초상화 있는데 보실래요?
-ballroom.png:angry_dung.png:아이리스:(얼굴이 빨개지며) 지금 뭐하는…!!!
-ballroom.png:first.JPEG:아스테리온:'엇…난 어떻게 반응해야하지…?'
+dung_room_2.png:defult.JPG:아스테리온:(편지를 쓰며)하… 아이리스양 기분이 아직 안 좋아보이던데…
+dung_room_2.png:::편지를 보고 기분 풀어줬으면 좋겠다. 역시 나란 남자 여자의 마음도 잘알아..하 이 죄많은 남자..
+dung_room_2.png:::아이리스 앞으로 편지를 붙이고 그는 티파티장으로 갔다.
+dung_room.png::시녀:아가씨 편지가 왔어요!
+dung_room.png:cry_dung.png:아이리스:지금은 아무것도 하고 싶지않아…
+dung_room.png:::아이리스는 상황이 어떻게 되었든 자신이 수술한 것을 아스테리온씨가 알게 된 것이 너무 짜증이 났다.
+dung_room.png::시녀:아스테리온님의 편지인데도요?
+dung_room.png:cry_dung.png:아이리스:(편지를 뺏어들고) 그런건 빨리 말했어야지!
+dung_room.png:::친애하는 아이리스양에게
+dung_room.png:::음…안녕하세요? 
+dung_room.png:::아이리스양. 저는 아스테리온 J.환입니다. 갑작스럽게 편지해서 미안해요.
+dung_room.png:::나는 아이리스양이 마음의 상처를 빨리 이겨내고 나와 만나주기를 기다리고 있어요..
+dung_room.png:::그런 의미로 티파티 초대장을 같이 보낼게요. 
+dung_room.png:::꼭 참석해주세요!
+dung_room.png:::당신의 썸남 아스테리온.
+dung_room.png:cry_dung.png:아이리스:그래…! 내가 성형한게 뭐 어때서??? 티파티에 가야겠어! 
+dung_room.png:::아이리스는 편지를 보곤 기운을 차렸다. 그러곤 서둘러서 티파티장으로 갔다.
+tea_party.png:expression_dung.png:아이리스:아스테리온씨는 어딨지?
+tea_party.png:defult.JPG:아스테리온:아이리스양! 
+tea_party.png:expression_dung.png:아이리스:앗 아스테리온씨!
+tea_party.png:defult.JPG:아스테리온:기분은 좀 어때요?
+tea_party.png:expression_dung.png:아이리스:이제 괜찮아요… 친한 친구는 잃었지만 전 아스테리온씨가…
+tea_party.png:female.jpg:대충 여자 어른:아스테리온씨? 저희와도 이야기해주세요~ 제 아들이 용사님 팬이라서요
+tea_party.png:defult.JPG:아스테리온:네? 아이리스양 뭐라고 하셨어요?
+tea_party.png:expression_dung.png:아이리스:아… 아니에요! 다녀오세요!
+tea_party.png:defult.JPG:아스테리온:금방 올게요. 먼저 앉아있어요
+tea_party.png:::아스테리온은 대화를 하러가고 아이리스는 테이블에 앉아 차를 마시고 있었다.
+tea_party.png:jeongayoung.jpg:정아영:어머 아이리스양 아니세요?
+tea_party.png:choeseoyeon.jpg:최서연:어머 정말 ’그’ 아이리스양이네요?
+tea_party.png:expression_dung.png:아이리스:네? ‘그’라뇨...?
+tea_party.png:jeongayoung.jpg:정아영:아이리스양 유명하시잖아요~ 록스버그양이 좋아하는 남자 가로챗다고; ㅋㅋㅋ
+tea_party.png:angry_dung.JPG:아이리스:제가 언제..!
+tea_party.png:choeseoyeon.jpg:최서연:(케이크를 들이밀며) 아 됐고 코제거 수술하신 아이리스양~ 냄새는 맡아지세요?
+tea_party.png:angry_dung.png:아이리스:하! 당연하지!
+tea_party.png:jeongayoung.jpg:정아영:근데 니 코는 왜이리 깨끗해? 왜 아무것도 없어?
+tea_party.png:shock_dung.png:아이리스:뭐라고요…?
+tea_party.png:choeseoyeon.jpg:최서연:너같은 사람들은 어떻게든 냄새 한번 맡아볼려고 해서 콧구멍이라도 있는데 왜 넌 아무것도 없냐고
+tea_party.png:jeongayoung.jpg:정아영:사실 별생각 없지? 코 없는 것도  생각 없고 록스버그양 남자 뺏은 것도 니가 여우라 그런거지? 그렇다고 말해~
+tea_party.png:choeseoyeon.jpg:최서연:그렇게 말하면 제가 아이리스양의 ‘그’ 소문은 없던거처럼 만들어줄 수도 있잖아요~
+tea_party.png:angry_dung.png:아이리스:(화가 나서)하… 그게 무슨 소리냐고요...!!!
+tea_party.png:::그때 아스테리온이 이쪽으로 뛰어오며 말했다
 $[답선택]
-1.? 아이리스양은 코가 없는걸요?:20
-2.헐 보여주세요! 너무 궁금하다:20
-3.아이리스 양은 안 했어도 예뻤을 거라서 상관없어요.:20
-4.엥??? 이게 한거라구요?????:20
+1.(케이크 냄새를 맡으며)그 냄새 내가 대신 맡아줄게... 너무 향기로워 마치 너처럼…☆:0
+2.(울먹거리며)아… 아이리스양 놀리지 마세요…:0
+3.야!!! 저 코 성형한거라거고…!! 2억짜리야;;:0
+4.야 우리 애 놀리지마라…아이리스양 시켜줘요 아이리스 에밀리 덩 명예소방관:20
 $
 %
-nose.png::아이리스:(화가 나서 얼굴이 빨개지며) 하!! 아스테리온씨 실망이에요!!!
-nose.png::아스테리온:아니 좀 웃은 거 가지고…
-nose.png::아이리스:(팔을 크게 휘둘러 뺨을 때리고) 전 이만 가볼게요!!!
-nose.png:::그렇게 아이리스가 떠나고 아스테리온은 터덜터덜 혼자 돌아갔다.
-nose.png:::나름 반성도 했고…
+tea_party.png:::아이리스는 그의 대처방법이 어이가 없었지만 고마움을 느꼈다.
+tea_party.png:smile_dung.png:아이리스:아스테리온씨 고마워요… 하하
+youwelcom.png::아스테리온:뭐 이런 일로! 유웰컴…☆
+tea_party.png:smile_dung.png:아이리스:그게 뭐예요~ 하하하핫

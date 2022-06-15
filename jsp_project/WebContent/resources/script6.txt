@@ -1,16 +1,35 @@
-dung_room_2.png:::아스테리온은 아이리스에게 고백을 하기위해 주변에 조언을 구하기로 했다.
-dung_room_2.png:defult.JPG:아스테리온:아이리스와 친한사람이 누가 있을까? 음…아!
-dung_room_2.png:::아스테리온은 조언을 구할 사람을 찾았는지 급히 걸음을 옮겼다.
-buree_room.jpg:defult.JPG:아스테리온:(문을 두드리면)록스버그양? 록스버그양!
-buree_room.jpg:expression_buree.png:록스버그:무슨일이세요? 
-buree_room.jpg:defult.JPG:아스테리온:록스버그양 나 좀 도와줘요.
-buree_room.jpg:smile_buree.png:록스버그:내가 뭘 도와주면 되는데요?
-buree_room.jpg:::록스버그는 오랜만에 자신을 찾은 아스테리온이 반가웠고 설레이는 마음이 들었다.
-buree_room.jpg:defult.JPG:아스테리온:아이리스양에게 고백하려는데 어껗게 하면 좋을까요?
-buree_room.jpg:cry_buree.png:록스버그:(실망한 얼굴로) 하…그걸 저한테 물어보는 의도가 뭐예요?
-buree_room.jpg:defult.JPG:아스테리온:그야 록스버그양이 아이리스양과 가장 친한…
-buree_sad.png:록스버그:(소리치며) 어쩜 그렇게 눈치가 없어요? 하아…그거 알아요? 당신은 항상 날 비참하게 만들어요.. 
-buree_room.jpg:::록스버그는 아스테리온의 뺨을 때리곤 뒤돌아 가버렸다.
-buree_room.jpg:::그 순간 록스버그는 다짐했다. 아스테리온을 절대로 보지않을 것이라고, 가망없는 일에 메달리지 않겠다고
-buree_room.jpg:defult.JPG:아스테리온:록스버그양이 왜저러지? 마치 나를 좋아하는 것처럼…우린 그저 친구인걸?
-buree_room.jpg:defult.JPG:아스테리온:이럴때가 아니지…선물이라도 사서 고백을 하러가야겠어
+throne.png:::아스테리온은 아이리스의 집으로 찾아갔다.
+throne.png:::하지만 그녀의 아버지는 그를 내쫓는데…
+throne.png:hwan.jpg:아이리스 기므 환 (아이리스의 아빠):너 같은 평민 기사 나부랭이한테는 우리 하나 밖에 없는 딸을 줄 수 없다!!!!
+throne.png:defult.JPG:아스테리온:네? 따님이 세분인데 하나 밖에 없다니…무슨 말씀이세요.
+throne.png:hwan.jpg:아이리스 기므 환:? 미친게냐 이 미친 기사 나부랭이를 내쫒거라
+throne.png:defult.JPG:아스테리온:안됩니다…!!! 전 꼭 아이리스양에게 고백을 해야한다고… ㅇ...
+throne.png:::저항했지만 기사에게 뒷목을 맞고 기절하여 내쫒겼다.
+garden.jpg:::잠시후 아스테리온이 깨어나고….
+garden.jpg:fisrt.JPEG:아스테리온:으윽… 여기가 어디… 아! 그래 여기는 아이리스 양의 집 앞이지...
+garden.jpg:crying.PNG:아스테리온:하… 난 그냥 고백을 하고 싶을 뿐이라고… 그래 오늘 밤을 노려보자.
+garden.jpg:::그렇게 밤이 된 후
+garden.jpg:cry_dung.png:아이리스:아버지가 반대하시다니… 아스테리온씨… 보고 싶어…
+garden.jpg:fever.JPEG:아스테리온:어떻게 들어가야하지? 창문으로 들어가야하나? 그래도 난 현대의 준법 정신을 가지고 있는 멋진 공대생 녀석인걸… 어쩔 수 없지 난 법보단 사랑인걸…
+>
+terrace.jpg:defult.JPG:아스테리온:히… 막상 고백하려니까 너무 떨리는데…?
+terrace.jpg:::아스테리온은 23년차 모솔 씹덕… 멀쩡한 고백을 할 수 있을리가 없었다.
+terrace.jpg:defult.JPG:아스테리온:똑똑 오지상? 오죠사마? 쨋든 당신의 작은 요정이 당신을 만나러 왔다구요…하핫
+terrace.jpg:expression_dung.png:아이리스:누구… 어??? 아스테리온씨?
+terrace.jpg:defult.JPG:아스테리온:쉿... 당신의 아버지가 아시면 날 죽일지도 몰라요
+terrace.jpg:expression_dung.png:아이리스:앗 맞다… 그런데 무슨 일이세요?
+terrace.jpg:defult.JPG:아스테리온:당신에게 고백하기 위해서 여기까지 왔어요 
+terrace.jpg:expression_dung.png:아이리스:네…?
+terrace.jpg:shame.JPG:아스테리온:아이리스…당신을 좋아하고 있어요. 나와 사귀어줄래요?
+terrace.jpg:smile_dung.png:아이리스:좋아요…!
+terrace.jpg:::그 순간 아스테리온의 아니 주정환의 몸은 점점 투명해졌다.
+terrace.jpg:crying.PNG:아스테리온:으윽!!!
+terrace.jpg:shock_dung.png:아이리스:왜 그래요? 어디 아파요? 아스테리온씨! 
+terrace.jpg:::아스테리온은 직감했다. 본인이 원래 세계로 돌아가게 될 것이라는 것을
+disappear.png::아스테리온:나는 이제 떠나야해요… 이렇게 혼자 남겨두고 가서 미안해요..
+disappear.png::아이리스:잠시만요… 저 사실 아스테리온씨의 진짜 이름을 알아요… 주정환... 맞죠?
+disappear.png::아스테리온:그걸 어떻게…
+disappear.png::아이리스:전… 다 알고 있었어요… 원래 있던 그곳으로 돌아가는 거 맞죠? 
+disappear.png::아스테리온:으윽… 이제 진짜 갈 때인가봐요... 미안해요
+disappear.png::아이리스:잘가요... 나 잊으면 안돼요…
+disappear.png:::그렇게 주정환은 원래 세계로 돌아왔다.
