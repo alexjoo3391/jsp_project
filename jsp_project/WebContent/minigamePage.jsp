@@ -31,12 +31,12 @@
 		<h3>
 			!!! <br>
 			이걸 어떻게 맞췄지!!! <br> 
-			난 정정당당 (正正堂堂)한 다람쥐, 좋아 올라가게 해주지 <br>
+			난 정정당당한 다람쥐, 좋아 올라가게 해주지 <br>
 			그리고... 같은 사나이로써 한 마디 당부하지 <br>
 			그녀의 얼굴에서 미소가 떠나는 날이 없도록 그녀를 잘 보살펴주도록 해... <br>
 			아디오스-
 		</h3>
-		<button onclick="location='mainPage.jsp'">다음으로</button>
+		<button onclick="window.history.back()">다음으로</button>
 	</div>
 	
 	<%
@@ -53,7 +53,7 @@
 			너 같이 나약한 놈은 그녀에게 보내줄 수 없으니 실력을 더 키워오도록 해. <br>
 			아디오스-
 		</h3>
-		<button onclick="location='mainPage.jsp'">다시하기</button>
+		<button onclick="window.history.back()">다시하기</button>
 	</div>
 
 	<%
