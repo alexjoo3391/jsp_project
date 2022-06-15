@@ -10,7 +10,7 @@
 <style>
 	body {
 		background-image: url("resources/image/background/login_background.png");
-		background-repeat : no-repeat;
+		background-repeat dd: no-repeat;
         background-size : cover;
 	}
 	.backBtn {

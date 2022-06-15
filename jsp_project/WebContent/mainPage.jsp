@@ -40,13 +40,14 @@
 <script type="text/javascript">
 	window.onload = () => {
 		const body = document.querySelector('body');
-		const profileImg = document.querySelector('.profile img');
-		const profileTxt = document.querySelector('.profile p');
-		const scriptTxt = document.querySelector('.text p')
+		let profileImg = document.querySelector('.profile img');
+		let profileTxt = document.querySelector('.profile p');
+		let scriptTxt = document.querySelector('.text p')
 		let str = document.querySelector('input#list').value // value에 값이 들어있는 input태그를 불러온다
 		let session = document.querySelector('input#session').value // value에 값이 들어있는 input태그를 불러온다
 		str = str.substring(1, str.length - 1).split(', '); // object타입으로 저장되서 양쪽에 붙어있는 '[',']'을 제거해서 리스트로 저장한다
 		let cnt = 1;
+		let id = 1;
 		document.addEventListener("keydown", (e) => { // 키다운 이벤트 감지
 			if(e.key === ' ') { // 입력한 키가 ' '거나 cnt가 리스트의 길이보다 작으면
 				if(str.length > cnt) {
@@ -60,22 +61,17 @@
 							document.querySelector('.text p').innerHTML += "<br><a class='option' data-option=" + text[1] + " >" + text[0] + "</a>";
 							cnt++; 
 						}
-						document.querySelectorAll('a').forEach(element => {
+						document.querySelectorAll('a.option').forEach(element => {
 							element.addEventListener("click", (e) => {
 								let love = element.getAttribute("data-option");
 								document.querySelector('.text p').innerHTML = love;
 								let form = document.createElement('form');
-								let column = document.createElement('input');
 								let input = document.createElement('input');
-								form.setAttribute('action', '/DBUpdatePage.jsp');
+								form.setAttribute('action', '/DBUpdateLovePage.jsp');
 								form.setAttribute('method', 'post');
-								column.setAttribute('type', 'hidden');
-								column.setAttribute('name', 'column');
-								column.setAttribute('value', 'love');
 								input.setAttribute('type', 'hidden');
 								input.setAttribute('name', 'param');
 								input.setAttribute('value', love);
-								form.appendChild(column);
 								form.appendChild(input);
 								body.appendChild(form);
 								form.submit();
@@ -93,18 +89,27 @@
 						cnt++;
 					}
 				} else {
-					document.querySelector('.text-container').style.display = 'none';
+					document.querySelectorAll('.text-container').forEach(element => {
+						element.style.display = 'none';
+					});
 					document.querySelector('.episode').style.display = 'block';
 				}
 			}
 		});
 		
-		document.querySelectorAll('a.episode-link').forEach(element => {
+		document.querySelectorAll('button.episode-link').forEach(element => {
 			element.addEventListener("click", (e) => {
-				console.log(element.getAttribute("data-id"));
-					
-				
-			})
+				id = element.getAttribute('data-id');
+				document.querySelector('.episode').style.display = 'none';
+				document.querySelector('.episode-' + id).style.display = 'block';
+				console.log('.profile-' + id + ' img');
+				profileImg = document.querySelector('.profile-' + id + ' img');
+				profileTxt = document.querySelector('.profile-' + id + ' p');
+				scriptTxt = document.querySelector('.text-' + id + ' p');
+				str = document.querySelector('input#list-' + id).value;
+				str = str.substring(1, str.length - 1).split(', ');
+				cnt = 1;
+			})	
 		})
 	}
 
@@ -114,11 +119,13 @@
 	<input id="session" type="hidden" value="<%= (String)session.getAttribute("loginOK") %>">
 	<input id="list" type="hidden" value="<%= list %>">
 	<div class="episode">
-		<a class="episode-link" data-id="1">에피소드1</a>
-		<a class="episode-link" data-id="2">에피소드2</a>
-		<a class="episode-link" data-id="3">에피소드3</a>
-		<a class="episode-link" data-id="4">에피소드4</a>
-		<a class="episode-link" data-id="5">에피소드5</a>
+		<button class="episode-link" data-id="1">에피소드1</button>
+		<button class="episode-link" data-id="2">에피소드2</button>
+		<button class="episode-link" data-id="3">에피소드3</button>
+		<button class="episode-link" data-id="4">에피소드4</button>
+		<button class="episode-link" data-id="5">에피소드5</button>
+		<button class="episode-link" data-id="6">에피소드6</button>
+		<button class="episode-link" data-id="7">엔딩</button>
 	</div>
     <div class="text-container">
         <div class="profile">
@@ -143,5 +150,31 @@
 		</form>
     </div>
 	
+<%
+	for(int i = 1; i <= 1; i++) {
+		realPath = application.getRealPath("/resources/"); 
+		reader = new BufferedReader(new FileReader(realPath + "script" + i + ".txt"));
+		list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
+		
+		while ((str = reader.readLine()) != null) {
+			list.add(str); // 변수에 텍스트 파일 내용 담기
+		}
+		
+		text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
+%>
+	<input id="list-<%= i %>" type="hidden" value="<%= list %>">
+	<div class="text-container episode-<%= i %>">
+        <div class="profile profile-<%= i %>">
+			<div class="img"><img src="resources/image/<%= text[1] %>"></div>
+            <p><%= text[2] %></p>
+        </div>
+        <div class="text text-<%= i %>">
+            <p><%= text[3] %></p>
+        </div>
+    </div>
+<%
+	}
+%>
+
 </body>
 </html>
