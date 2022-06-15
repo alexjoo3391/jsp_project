@@ -75,7 +75,7 @@
     </div>
 	
 <%
-	for(int i = 1; i <= 7; i++) {
+	for(int i = 1; i <= 6; i++) {
 		realPath = application.getRealPath("/resources/"); 
 		reader = new BufferedReader(new FileReader(realPath + "script" + i + ".txt"));
 		list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
