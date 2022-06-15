@@ -197,6 +197,48 @@ button:hover {
 
 /* Main Page */
 
+#ep1Btn {
+    position: absolute;
+    top: 15vh;
+    left: 85vw;
+}
+
+#ep2Btn {
+    position: absolute;
+    top: 25vh;
+    left: 85vw;
+}
+
+#ep3Btn {
+    position: absolute;
+    top: 35vh;
+    left: 85vw;
+}
+
+#ep4Btn {
+    position: absolute;
+    top: 45vh;
+    left: 85vw;
+}
+
+#ep5Btn {
+    position: absolute;
+    top: 55vh;
+    left: 85vw;
+}
+
+#ep6Btn {
+    position: absolute;
+    top: 65vh;
+    left: 85vw;
+}
+
+#endingBtn {
+    position: absolute;
+    top: 75vh;
+    left: 85vw;
+}
+
 .text-container {
     color: white;
     font-family: 'HeirofLightRegular';
