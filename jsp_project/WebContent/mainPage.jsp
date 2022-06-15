@@ -38,6 +38,13 @@
 </head>
 <body style="background-image: url('resources/image/<%= text[0] %>');">
 	<input type="hidden" value="<%= list %>">
+	<div class="episode">
+		<a class="episode-link" data-id="1">에피소드1</a>
+		<a class="episode-link" data-id="2">에피소드2</a>
+		<a class="episode-link" data-id="3">에피소드3</a>
+		<a class="episode-link" data-id="4">에피소드4</a>
+		<a class="episode-link" data-id="5">에피소드5</a>
+	</div>
     <div class="text-container">
         <div class="profile">
 			<div class="img"><img src="resources/image/<%= text[1] %>"></div>
