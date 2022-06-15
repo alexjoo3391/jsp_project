@@ -27,10 +27,6 @@
 %>
 <link rel="stylesheet" href="css/style.css">
 <style>
-	.text-container .profile p {
-		background: url("resources/image/background/button_background.png") no-repeat;
-	}
-	
 	body {
 		background-repeat : no-repeat;
         background-size : cover;
