@@ -1,4 +1,4 @@
-dung_room_2.png:defult.JPG:아스테리온:(편지를 쓰며)하… 아이리스양 기분이 아직 안 좋아보이던데…
+dung_room_2.png:defult.png:아스테리온:(편지를 쓰며)하… 아이리스양 기분이 아직 안 좋아보이던데…
 dung_room_2.png:::편지를 보고 기분 풀어줬으면 좋겠다. 역시 나란 남자 여자의 마음도 잘알아..하 이 죄많은 남자..
 dung_room_2.png:::아이리스 앞으로 편지를 붙이고 그는 티파티장으로 갔다.
 dung_room.png::시녀:아가씨 편지가 왔어요!
@@ -13,23 +13,23 @@ dung_room.png:::나는 아이리스양이 마음의 상처를 빨리 이겨내�
 dung_room.png:::그런 의미로 티파티 초대장을 같이 보낼게요. 
 dung_room.png:::꼭 참석해주세요!
 dung_room.png:::당신의 썸남 아스테리온.
-dung_room.png:cry_dung.png:아이리스:그래…! 내가 성형한게 뭐 어때서??? 티파티에 가야겠어! 
+dung_room.png:angry_dung.png:아이리스:그래…! 내가 성형한게 뭐 어때서??? 티파티에 가야겠어! 
 dung_room.png:::아이리스는 편지를 보곤 기운을 차렸다. 그러곤 서둘러서 티파티장으로 갔다.
 tea_party.png:expression_dung.png:아이리스:아스테리온씨는 어딨지?
-tea_party.png:defult.JPG:아스테리온:아이리스양! 
+tea_party.png:defult.png:아스테리온:아이리스양! 
 tea_party.png:expression_dung.png:아이리스:앗 아스테리온씨!
-tea_party.png:defult.JPG:아스테리온:기분은 좀 어때요?
+tea_party.png:defult.png:아스테리온:기분은 좀 어때요?
 tea_party.png:expression_dung.png:아이리스:이제 괜찮아요… 친한 친구는 잃었지만 전 아스테리온씨가…
 tea_party.png:female.jpg:대충 여자 어른:아스테리온씨? 저희와도 이야기해주세요~ 제 아들이 용사님 팬이라서요
-tea_party.png:defult.JPG:아스테리온:네? 아이리스양 뭐라고 하셨어요?
+tea_party.png:defult.png:아스테리온:네? 아이리스양 뭐라고 하셨어요?
 tea_party.png:expression_dung.png:아이리스:아… 아니에요! 다녀오세요!
-tea_party.png:defult.JPG:아스테리온:금방 올게요. 먼저 앉아있어요
+tea_party.png:defult.png:아스테리온:금방 올게요. 먼저 앉아있어요
 tea_party.png:::아스테리온은 대화를 하러가고 아이리스는 테이블에 앉아 차를 마시고 있었다.
 tea_party.png:jeongayoung.jpg:정아영:어머 아이리스양 아니세요?
 tea_party.png:choeseoyeon.jpg:최서연:어머 정말 ’그’ 아이리스양이네요?
 tea_party.png:expression_dung.png:아이리스:네? ‘그’라뇨...?
 tea_party.png:jeongayoung.jpg:정아영:아이리스양 유명하시잖아요~ 록스버그양이 좋아하는 남자 가로챗다고; ㅋㅋㅋ
-tea_party.png:angry_dung.JPG:아이리스:제가 언제..!
+tea_party.png:angry_dung.png:아이리스:제가 언제..!
 tea_party.png:choeseoyeon.jpg:최서연:(케이크를 들이밀며) 아 됐고 코제거 수술하신 아이리스양~ 냄새는 맡아지세요?
 tea_party.png:angry_dung.png:아이리스:하! 당연하지!
 tea_party.png:jeongayoung.jpg:정아영:근데 니 코는 왜이리 깨끗해? 왜 아무것도 없어?

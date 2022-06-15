@@ -9,7 +9,7 @@ dung_room.png:::록스버그의 계획에는 아스테리온도 있어야했기�
 ballroom.png:smile_dung.png:아이리스:어? 아스테리온씨! 안녕하세요!
 ballroom.png:defult.png:아스테리온:아이리스양 반가워요
 ballroom.png:expression_buree.png:록스버그:아스테리온씨 눈에는 제가 안 보이나 보네요?
-ballroom.png:first.JPEG:아스테리온:앗….죄송해요 반가운 마음에 하하
+ballroom.png:defult.png:아스테리온:앗….죄송해요 반가운 마음에 하하
 ballroom.png:expression_buree.png:록스버그: 저는 별로 반갑지 않나보네요?
 ballroom.png:defult.png:아스테리온:아이~ 그런 뜻 아닌거 아시면서~~~ 록스버그양이 초대해주신거니까 오실걸 알았지만 아이리스양은 오실지 몰랐으니까…
 ballroom.png:expression_buree.png:록스버그:하…잡담은 그만하고 들어가죠
@@ -19,7 +19,7 @@ ballroom.png:expression_buree.png:록스버그:그래…재밌을거 같네
 ballroom.png:::아이리스는 아무것도 모른체 록스버그의 일명 아이리스 맥이기 계획에 동참하는 영애들과 함께 수다를 떨고 있었다. 그때 서로의 눈치를 살피더니 록스버그가 운을 띄웠다.
 ballroom.png:derision_buree.png:록스버그:아 맞다 아이리스 저번에 수술한 곳은 괜찮니?
 ballroom.png:shock_dung.png:아이리스:어? 부리양 왜그래요... 하하…
-ballroom.png:fever.JPEG:아스테리온:아이리스양 어디 아파요? 무슨 수술인데요?
+ballroom.png:fever.png:아스테리온:아이리스양 어디 아파요? 무슨 수술인데요?
 ballroom.png:expression_dung.png:아이리스:아무것도 아... ㄴ
 ballroom.png:derision_buree.png:록스버그:(말을 끊으며) 덩양 코 수술 했잖아요~~~
 ballroom.png:friend_2.jpg:친구 2:엄청 아프다는데 진짜 독하게 그걸 또 하더라고요~~~
