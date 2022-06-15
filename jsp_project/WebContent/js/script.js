@@ -81,6 +81,7 @@ window.onload = () => {
                     element.style.display = 'none';
                 });
                 document.querySelector('.episode').style.display = 'block';
+				body.style.backgroundImage = "url('resources/image/illustration/main.png')";
             }
         }
     });
