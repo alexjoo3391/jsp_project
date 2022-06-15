@@ -11,20 +11,21 @@ window.onload = () => {
     document.addEventListener("keydown", (e) => { // 키다운 이벤트 감지
         if(e.key === ' ') { // 입력한 키가 ' '거나 cnt가 리스트의 길이보다 작으면
             if(str.length > cnt) {
+				console.log(str[cnt][0]);
                 if(str[cnt][0] === "%") {
                     // 선택지 고르는 중 스페이스 이벤트를 흘리기 위한 if문
                 } else if(str[cnt][0] === "$") { // 선택지가 나오는 부분('$'로 감싸둔 부분)을 if문을 사용해서 감지함
                     cnt++; 
                     while(true) {
                         if(str[cnt][0] === "$") break; // 선택지가 끝나는 부분을 감지해서 while문을 빠져나온다
+						console.log(str[cnt]);
                         let text = str[cnt].split(":"); 
-                        document.querySelector('.text p').innerHTML += "<br><a class='option' data-option=" + text[1] + " >" + text[0] + "</a>";
+                        scriptTxt.innerHTML += "<br><a class='option' data-option=" + text[1] + " >" + text[0] + "</a>";
                         cnt++; 
                     }
                     document.querySelectorAll('a.option').forEach(element => {
                         element.addEventListener("click", (e) => {
                             let love = element.getAttribute("data-option");
-                            document.querySelector('.text p').innerHTML = love;
                             let form = document.createElement('form');
                             let input = document.createElement('input');
                             form.setAttribute('action', '/DBUpdateLovePage.jsp');
@@ -43,8 +44,8 @@ window.onload = () => {
                 } else {
                     let text = str[cnt].split(":"); // 문장을 분해해서 변수에 저장
                     body.style.backgroundImage = "url('resources/image/illustration/" + text[0] + "')";
-					console.log((text[1] === "" ? "no_profile" : text[1]));
-                    profileImg.src = "resources/image/illustration/" + (text[1] === "" ? "no_profile.png" : text[1]);                    profileTxt.innerHTML = text[2]; 
+                    profileImg.src = "resources/image/illustration/" + (text[1] === "" ? "no_profile.png" : text[1]);
+					profileTxt.innerHTML = text[2]; 
                     scriptTxt.innerHTML = text[3];
                     cnt++;
                 }
