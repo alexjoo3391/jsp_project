@@ -1,0 +1,18 @@
+room.png:::주정환은 현실 세계로 돌아오고 잠시 멍하니 있었다.
+room.png:::그러곤 고개를 돌려서 시계를 바라봤다.
+room.png:::다른 세계로 가기 전의 시간에서 30분 남짓 지난 시간 
+room.png:::그냥 잠시 졸아서 꿈을 꾼것만 같았다.
+room.png:::하지만 그것이 꿈이 아니라는 것을 알고 있었기에 과제를 다 끝내지 못했고 할 것들이 많았지만 밖으로 뛰쳐나왔다.
+roadside.png:::정환은 평소 안전한 길을 좋아했고 확신이 없다면 행동하지 않았다.
+roadside.png:::이 행동은 그에게 있어 기행이었다.
+roadside.png:defult.JPG:주정환:대체 어디로 가야하는거야…
+roadside.png:::정환은 일단 집 근처에 있는 골목길을 돌아다녔고
+roadside.png:::그 후에는 학교 그 후에는 옆동네등등 많은 곳을 찾아 다녔다.
+roadside.png:::당연히 그녀는 이 곳에 없지만 정환은 왠지 그래야 할 것 같은 마음에 계속해서 움직였다.
+subway_station.png:그러던 중 이끌리듯 지하철에 타기 위해 지하철 역으로 뛰어갔다
+subway_station.png:defult.JPG:주정환:아이리스…
+subway_meet.png:::그렇게 정환은 지하철을 타고 정처없이 창을 보며 있었다.
+subway_meet.png:::‘덜컹덜컹’
+subway_meet.png:::반대편에서도 지하철이 오고 있었다.
+end_subway.png:defult.JPG:주정환:어…?
+end_subway.png:::정환은 그녀를 닮은 누군가와 눈이 마주쳤고 그녀는 정환을 보며 웃었다…
