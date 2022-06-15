@@ -43,7 +43,7 @@ window.onload = () => {
                 } else {
                     let text = str[cnt].split(":"); // 문장을 분해해서 변수에 저장
                     body.style.backgroundImage = "resources/image/" + text[0];
-                    profileImg.src = "resources/image/" + text[1];
+                    profileImg.src = text[1] === '' ? '' :"resources/image/" + text[1];
                     profileTxt.innerHTML = text[2]; 
                     scriptTxt.innerHTML = text[3];
                     cnt++;
