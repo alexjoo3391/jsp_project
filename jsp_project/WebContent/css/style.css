@@ -208,8 +208,8 @@ button:hover {
     display: flex;
     width: 1300px;
     height: 230px;
+    top: 70vh;
     left: 110px;
-    top: 480px;
 }
 
 .text-container .profile {
@@ -252,7 +252,7 @@ button:hover {
     height: 140px;
     margin: 0px;
     position: relative;
-    top: 25px;
+    top: 0.01vh;
     width: 100%;
 }
 
@@ -293,4 +293,9 @@ h3 {
     border: 3px double #DEC686;
     outline: 1px solid #795324;
     background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 1300px;
+    height: 230px;
+    top: 76vh;
+    left: 25vw;
 }
