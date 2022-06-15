@@ -12,6 +12,19 @@
 <head>
 <meta charset="UTF-8">
 <title>남주의 복지를 책임지겠습니다</title>
+<%
+	String realPath = application.getRealPath("/resources/"); // 파일 경로 가져오기
+	BufferedReader reader = new BufferedReader(new FileReader(realPath + "test.txt")); // 파일 경로에 있는 텍스트 파일 가져오기
+	ArrayList<String> list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
+	
+	String str;
+	while ((str = reader.readLine()) != null) {
+		list.add(str); // 변수에 텍스트 파일 내용 담기
+	}
+	
+	String[] text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
+	// 
+%>
 <link rel="stylesheet" href="css/style.css">
 <style>
 	.text-container .profile p {
@@ -26,6 +39,10 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript">
 	window.onload = () => {
+		const body = document.querySelector('body');
+		const profileImg = document.querySelector('.profile img');
+		const profileTxt = document.querySelector('.profile p');
+		const scriptTxt = document.querySelector('.text p')
 		let str = document.querySelector('input#list').value // value에 값이 들어있는 input태그를 불러온다
 		let session = document.querySelector('input#session').value // value에 값이 들어있는 input태그를 불러온다
 		str = str.substring(1, str.length - 1).split(', '); // object타입으로 저장되서 양쪽에 붙어있는 '[',']'을 제거해서 리스트로 저장한다
@@ -47,17 +64,32 @@
 							element.addEventListener("click", (e) => {
 								let love = element.getAttribute("data-option");
 								document.querySelector('.text p').innerHTML = love;
-								
+								let form = document.createElement('form');
+								let column = document.createElement('input');
+								let input = document.createElement('input');
+								form.setAttribute('action', '/DBUpdatePage.jsp');
+								form.setAttribute('method', 'post');
+								column.setAttribute('type', 'hidden');
+								column.setAttribute('name', 'column');
+								column.setAttribute('value', 'love');
+								input.setAttribute('type', 'hidden');
+								input.setAttribute('name', 'param');
+								input.setAttribute('value', love);
+								form.appendChild(column);
+								form.appendChild(input);
+								body.appendChild(form);
+								form.submit();
+								console.log(form);
 								cnt++;
 							})
 						})
 						cnt++;
 					} else {
 						let text = str[cnt].split(":"); // 문장을 분해해서 변수에 저장
-						document.querySelector('body').style.backgroundImage = "resources/image/" + text[0];
-						document.querySelector('.profile img').src = "resources/image/" + text[1];
-						document.querySelector('.profile p').innerHTML = text[2]; 
-						document.querySelector('.text p').innerHTML = text[3];
+						body.style.backgroundImage = "resources/image/" + text[0];
+						profileImg.src = "resources/image/" + text[1];
+						profileTxt.innerHTML = text[2]; 
+						scriptTxt.innerHTML = text[3];
 						cnt++;
 					}
 				} else {
@@ -77,20 +109,6 @@
 	}
 
 </script>
-<%
-	String realPath = application.getRealPath("/resources/"); // 파일 경로 가져오기
-	BufferedReader reader = new BufferedReader(new FileReader(realPath + "test.txt")); // 파일 경로에 있는 텍스트 파일 가져오기
-	ArrayList<String> list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
-	
-	String str;
-	while ((str = reader.readLine()) != null) {
-		list.add(str); // 변수에 텍스트 파일 내용 담기
-	}
-	
-	String[] text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
-	
-	// console.log("<%= new MemberDAO().updateLove(love, session) %>");
-%>
 </head>
 <body style="background-image: url('resources/image/<%= text[0] %>');">
 	<input id="session" type="hidden" value="<%= (String)session.getAttribute("loginOK") %>">
