@@ -242,33 +242,37 @@ button:hover {
 .text-container {
     color: white;
     font-family: 'HeirofLightRegular';
-    font-size: 25px;
+    font-size: 30px;
     border: 3px double #DEC686;
     outline: 1px solid #795324;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     display: flex;
-    width: 1300px;
-    height: 230px;
-    top: 70vh;
-    left: 110px;
+    width: 90vw;
+    height: 40vh;
+    top: 55vh;
+    left: 5vw;
 }
 
 .text-container .profile {
-	width: 250px;
+    position: relative;
+	width: 15vw;
 	height: 100%;
-	border-right: 1px double black;
+	border-right: 3px double #DEC686;
+    outline: 1px solid #795324;
 }
 
 .text-container .profile .img {
-    width: 100%;
-    margin: 0px auto;
+    height: 35vh;
+    width: 15vw;
+    margin: 0;
 }
 
 .text-container .profile .img img {
-    width: 100%;
-    height: 22vh;
+    width: 15vw;
+    height: 33vh;
     object-fit: cover;
+    margin: 0;
 }
 
 .minigame {
@@ -290,7 +294,7 @@ button:hover {
     color: #DEC686;
     font-family: 'HeirofLightBold';
     text-align: center;
-    width: 50px;
+    width: 30px;
     height: 140px;
     margin: 0px;
     position: relative;
@@ -336,8 +340,13 @@ h3 {
     outline: 1px solid #795324;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    width: 1300px;
-    height: 230px;
-    top: 76vh;
-    left: 25vw;
+    width: 75vw;
+    height: 25vh;
+    top: 68vh;
+    left: 13vw;
+}
+
+.nextBtn {
+    position: absolute;
+    left: 50vw;
 }

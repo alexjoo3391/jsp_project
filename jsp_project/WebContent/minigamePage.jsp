@@ -8,11 +8,15 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	.win {
+		width: 100vw;
+        height: 100vh;
 		background-image: url("resources/image/minigame_win.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
 	.lose {
+		width: 100vw;
+        height: 100vh;
 		background-image: url("resources/image/minigame_lose.png");
 		background-repeat : no-repeat;
         background-size : cover;
@@ -62,7 +66,7 @@
 			너 같이 나약한 놈은 그녀에게 보내줄 수 없으니 실력을 더 키워오도록 해. <br>
 			아디오스-
 		</h3>
-		<button onclick="window.history.back()">다시하기</button>
+		<button onclick="window.history.back()" class="nextBtn">다시하기</button>
 	</div>
 
 	<%
