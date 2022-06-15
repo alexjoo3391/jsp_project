@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 	body {
-		background-image: url("resources/image/title.png");
+		background-image: url("resources/image/background/title_background.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
