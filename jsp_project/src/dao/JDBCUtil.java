@@ -13,8 +13,8 @@ public class JDBCUtil {
 
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			// conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "hr", "hr");
-			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "hr");
+			conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl", "hr", "hr");
+			// conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "hr");
 		} catch (Exception e) {
 			System.out.println("DB 연결에 실패하였습니다.");
 			e.printStackTrace();
