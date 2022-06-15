@@ -1,3 +1,4 @@
+<%@page import="java.io.PrintWriter"%>
 <%@page import="java.sql.SQLException"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
@@ -13,6 +14,7 @@
 </head>
 <body>
 <%
+
 	String column = request.getParameter("column");
 	String param = request.getParameter("param");
 	String id = (String)session.getAttribute("loginOK");
@@ -26,6 +28,8 @@
 	
 	conn = JDBCUtil.getConnection();
 	
+	
+	
 	try {
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, column);
@@ -36,6 +40,7 @@
 		e.printStackTrace();
 	} finally {
 		JDBCUtil.close(conn, pstmt);
+		out.print("<script>window.history.back();</script>");
 	}
 %>
 </body>
