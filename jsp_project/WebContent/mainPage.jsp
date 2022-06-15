@@ -21,8 +21,6 @@
 	while ((str = reader.readLine()) != null) {
 		list.add(str); // 변수에 텍스트 파일 내용 담기
 	}
-	
-	String[] text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
 
 %>
 <link rel="stylesheet" href="css/style.css">
@@ -43,7 +41,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </head>
-<body style="background-image: url('resources/image/illustration/<%= text[0] %>');">
+<body>
 	<input id="session" type="hidden" value="<%= (String)session.getAttribute("loginOK") %>">
 	<input id="list" type="hidden" value="<%= list %>">
 	<div class="episode">
@@ -57,11 +55,11 @@
 	</div>
     <div class="text-container">
         <div class="profile">
-			<div class="img"><img src="resources/image/illustration/<%= text[1].equals("") ? "no_profile.png" : text[1] %>"></div>
-            <p><%= text[2] %></p>
+			<div class="img"><img src=""></div>
+            <p></p>
         </div>
         <div class="text">
-            <p><%= text[3] %></p>
+            <p></p>
         </div>
     </div>
     
@@ -86,18 +84,15 @@
 		while ((str = reader.readLine()) != null) {
 			list.add(str); // 변수에 텍스트 파일 내용 담기
 		}
-		
-		System.out.println(list.get(0));
-		text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
 %>
 	<input id="list-<%= i %>" type="hidden" value="<%= list %>">
 	<div class="text-container episode-<%= i %>">
         <div class="profile profile-<%= i %>">
-			<div class="img"><img src="resources/image/illustration/<%= text[1].equals("") ? "no_profile.png" : text[1] %>"></div>
-            <p><%= text[2] %></p>
+			<div class="img"><img src=""></div>
+            <p></p>
         </div>
         <div class="text text-<%= i %>">
-            <p><%= text[3] %></p>
+            <p></p>
         </div>
     </div>
 <%

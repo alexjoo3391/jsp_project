@@ -22,7 +22,14 @@
 	int love = dao.getLove(id) + (Integer.parseInt(param));
 	
 	dao.updateLove(love, id);
-	
+
+%>
+
+<script>
+	sessionStorage.setItem("love", <%= love %>);
+</script>
+
+<%
 	out.print("<script>window.history.back();</script>");
 %>
 </body>

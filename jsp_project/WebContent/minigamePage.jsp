@@ -19,6 +19,15 @@
 	}
 </style>
 </head>
+<script>
+	function next() {
+		let checkpoint = JSON.parse(sessionStorage.getItem("checkpoint"));
+		checkpoint[1] = checkpoint[1] + 1;
+		sessionStorage.setItem("checkpoint", JSON.stringify(checkpoint));
+		window.location = document.referrer;
+	}
+
+</script>
 <body>
 
 	<%
@@ -36,7 +45,7 @@
 			그녀의 얼굴에서 미소가 떠나는 날이 없도록 그녀를 잘 보살펴주도록 해... <br>
 			아디오스-
 		</h3>
-		<button onclick="window.history.back()">다음으로</button>
+		<button onclick="next()">다음으로</button>
 	</div>
 	
 	<%
