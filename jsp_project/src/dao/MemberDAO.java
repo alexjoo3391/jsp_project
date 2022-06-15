@@ -136,4 +136,47 @@ public class MemberDAO {
 		
 		return result;
 	}
+	
+	public int getLove(String id) {
+		String sql = "SELECT love FROM member WHERE id=?";
+		int result = -1;
+		
+		conn = JDBCUtil.getConnection();
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			
+			if (rs.next()) {
+				result = rs.getInt(1);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtil.close(conn, pstmt, rs);
+		}
+		
+		return result;
+	}
+	
+	public int updateLove(int love, String id) {
+		String sql = "update member set love=? where id=?";
+		int result = 0;
+		
+		conn = JDBCUtil.getConnection();
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, love);
+			pstmt.setString(2, id);
+			result = pstmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtil.close(conn, pstmt);
+		}
+		
+		return result;
+	}
 }

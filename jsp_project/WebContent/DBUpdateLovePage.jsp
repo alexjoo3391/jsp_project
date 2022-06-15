@@ -1,3 +1,4 @@
+<%@page import="dao.MemberDAO"%>
 <%@page import="java.io.PrintWriter"%>
 <%@page import="java.sql.SQLException"%>
 <%@page import="java.sql.ResultSet"%>
@@ -14,34 +15,15 @@
 </head>
 <body>
 <%
-
-	String column = request.getParameter("column");
 	String param = request.getParameter("param");
 	String id = (String)session.getAttribute("loginOK");
 	
-	Connection conn = null;
-	PreparedStatement pstmt = null;
-	ResultSet rs = null;
+	MemberDAO dao = new MemberDAO();
+	int love = dao.getLove(id) + (Integer.parseInt(param));
 	
-	String sql = "update member set ?=? where id=?";
-	int result = 0;
+	dao.updateLove(love, id);
 	
-	conn = JDBCUtil.getConnection();
-	
-	
-	
-	try {
-		pstmt = conn.prepareStatement(sql);
-		pstmt.setString(1, column);
-		pstmt.setString(2, param);
-		pstmt.setString(3, id);
-		result = pstmt.executeUpdate();
-	} catch (SQLException e) {
-		e.printStackTrace();
-	} finally {
-		JDBCUtil.close(conn, pstmt);
-		out.print("<script>window.history.back();</script>");
-	}
+	out.print("<script>window.history.back();</script>");
 %>
 </body>
 </html>
