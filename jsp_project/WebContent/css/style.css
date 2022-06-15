@@ -233,6 +233,12 @@ button:hover {
 	display: none;
 }
 
+.episode {
+	display: none;
+	cursor: pointer;
+	color: white;
+}
+
 /* 이름 */
 .text-container .profile p {
     color: #DEC686;
