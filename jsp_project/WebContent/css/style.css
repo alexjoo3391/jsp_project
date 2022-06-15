@@ -265,13 +265,14 @@ button:hover {
 .text-container .profile .img {
     height: 35vh;
     width: 15vw;
-    margin: 0px auto;
+    margin: 0;
 }
 
 .text-container .profile .img img {
     width: 15vw;
     height: 33vh;
     object-fit: cover;
+    margin: 0;
 }
 
 .minigame {
@@ -339,8 +340,13 @@ h3 {
     outline: 1px solid #795324;
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
-    width: 1300px;
-    height: 230px;
-    top: 76vh;
-    left: 25vw;
+    width: 75vw;
+    height: 25vh;
+    top: 68vh;
+    left: 13vw;
+}
+
+.nextBtn {
+    position: absolute;
+    left: 50vw;
 }
