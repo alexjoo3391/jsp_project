@@ -71,26 +71,26 @@ button:hover {
 
 #spLoginBtn {
     position: absolute;
-    top: 700px;
-    left: 50px;
+    top: 80vh;
+    left: 2vw;
 }
-
+ 
 #spJoinBtn {
     position: absolute;
-    top: 820px;
-    left: 50px;
+    top: 90vh;
+    left: 2vw;
 }
 
 #spStartBtn {
     position: absolute;
-    top: 700px;
-    left: 50px;
+    top: 80vh;
+    left: 2vw;
 }
 
 #spLogoutBtn {
     position: absolute;
-    top: 820px;
-    left: 50px;
+    top: 90vh;
+    left: 2vw;
 }
 
 /* Login Page */
