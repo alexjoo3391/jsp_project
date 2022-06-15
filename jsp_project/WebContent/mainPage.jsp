@@ -75,8 +75,7 @@
     </div>
 	
 <%
-	for(int i = 1; i <= 6; i++) {
-		realPath = application.getRealPath("/resources/"); 
+	for(int i = 1; i <= 7; i++) { 
 		reader = new BufferedReader(new FileReader(realPath + "script" + i + ".txt"));
 		list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
 		
@@ -84,6 +83,7 @@
 			list.add(str); // 변수에 텍스트 파일 내용 담기
 		}
 		
+		System.out.println(list.get(0));
 		text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
 %>
 	<input id="list-<%= i %>" type="hidden" value="<%= list %>">
