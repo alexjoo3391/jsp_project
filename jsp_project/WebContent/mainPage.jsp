@@ -23,7 +23,7 @@
 	}
 	
 	String[] text = list.get(0).split(":"); // 텍스트 파일의 첫번째 줄만 빼내서 분해한다
-	// 
+
 %>
 <link rel="stylesheet" href="css/style.css">
 <style>
@@ -53,7 +53,7 @@
 	</div>
     <div class="text-container">
         <div class="profile">
-			<div class="img"><img src="resources/image/illustration/<%= text[1] %>"></div>
+			<div class="img"><img src="resources/image/illustration/<%= text[1].equals("") ? "no_profile.png" : text[1] %>"></div>
             <p><%= text[2] %></p>
         </div>
         <div class="text">
@@ -75,7 +75,7 @@
     </div>
 	
 <%
-	for(int i = 1; i <= 1; i++) {
+	for(int i = 1; i <= 7; i++) {
 		realPath = application.getRealPath("/resources/"); 
 		reader = new BufferedReader(new FileReader(realPath + "script" + i + ".txt"));
 		list = new ArrayList<String>(); // 텍스트 파일 내용을 담을 변수 생성
@@ -89,7 +89,7 @@
 	<input id="list-<%= i %>" type="hidden" value="<%= list %>">
 	<div class="text-container episode-<%= i %>">
         <div class="profile profile-<%= i %>">
-			<div class="img"><img src="resources/image/illustration<%= text[1] %>"></div>
+			<div class="img"><img src="resources/image/illustration<%= text[1].equals("") ? "no_profile.png" : text[1] %>"></div>
             <p><%= text[2] %></p>
         </div>
         <div class="text text-<%= i %>">

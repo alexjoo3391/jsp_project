@@ -26,7 +26,7 @@ ballroom.png:friend_2.jpg:친구 2:엄청 아프다는데 진짜 독하게 그�
 ballroom.png:friend_1.jpg:친구 1:저 예전 초상화 있는데 보실래요?
 ballroom.png:angry_dung.png:아이리스:(얼굴이 빨개지며) 지금 뭐하는…!!!
 ballroom.png:first.JPEG:아스테리온:'엇…난 어떻게 반응해야하지…?'
-$[답선택]
+$[]
 1.? 아이리스양은 코가 없는걸요?:20
 2.헐 보여주세요! 너무 궁금하다:20
 3.아이리스 양은 안 했어도 예뻤을 거라서 상관없어요.:20
