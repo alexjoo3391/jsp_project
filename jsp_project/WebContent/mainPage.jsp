@@ -89,7 +89,7 @@
 	<input id="list-<%= i %>" type="hidden" value="<%= list %>">
 	<div class="text-container episode-<%= i %>">
         <div class="profile profile-<%= i %>">
-			<div class="img"><img src="resources/image/illustration<%= text[1].equals("") ? "no_profile.png" : text[1] %>"></div>
+			<div class="img"><img src="resources/image/illustration/<%= text[1].equals("") ? "no_profile.png" : text[1] %>"></div>
             <p><%= text[2] %></p>
         </div>
         <div class="text text-<%= i %>">
