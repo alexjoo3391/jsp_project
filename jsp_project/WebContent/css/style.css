@@ -276,6 +276,11 @@ h2.signoutText {
 
 /* Minigame Page */
 
-h2 {
-    border: 1px solid black;
+h3 {
+    color: white;
+    font-family: 'HeirofLightRegular';
+    font-size: 25px;
+    border: 3px double #DEC686;
+    outline: 1px solid #795324;
+    background-color: rgba(0, 0, 0, 0.5);
 }
