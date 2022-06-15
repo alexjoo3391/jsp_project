@@ -35,6 +35,10 @@
 		background-repeat : no-repeat;
         background-size : cover;
 	}
+	
+	button {
+		background: url("resources/image/background/startBtn_background.png") no-repeat;
+	}
 </style>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>
@@ -43,13 +47,13 @@
 	<input id="session" type="hidden" value="<%= (String)session.getAttribute("loginOK") %>">
 	<input id="list" type="hidden" value="<%= list %>">
 	<div class="episode">
-		<button class="episode-link" data-id="1">에피소드1</button>
-		<button class="episode-link" data-id="2">에피소드2</button>
-		<button class="episode-link" data-id="3">에피소드3</button>
-		<button class="episode-link" data-id="4">에피소드4</button>
-		<button class="episode-link" data-id="5">에피소드5</button>
-		<button class="episode-link" data-id="6">에피소드6</button>
-		<button class="episode-link" data-id="7">엔딩</button>
+		<button class="episode-link" id="ep1Btn" data-id="1">에피소드1</button>
+		<button class="episode-link" id="ep2Btn" data-id="2">에피소드2</button>
+		<button class="episode-link" id="ep3Btn" data-id="3">에피소드3</button>
+		<button class="episode-link" id="ep4Btn" data-id="4">에피소드4</button>
+		<button class="episode-link" id="ep5Btn" data-id="5">에피소드5</button>
+		<button class="episode-link" id="ep6Btn" data-id="6">에피소드6</button>
+		<button class="episode-link" id="endingBtn" data-id="7">엔딩</button>
 	</div>
     <div class="text-container">
         <div class="profile">
