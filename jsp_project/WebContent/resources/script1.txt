@@ -7,11 +7,11 @@ dung_room.png:::그렇게 아이리스는 록스버그를 따라 파티에 가�
 dung_room.png:::하지만 그 티파티에 가는 것은 아이리스가 다가 아니었다.
 dung_room.png:::록스버그의 계획에는 아스테리온도 있어야했기에 아스테리온도 자연스럽게 동석하게 되었다.
 ballroom.png:smile_dung.png:아이리스:어? 아스테리온씨! 안녕하세요!
-ballroom.png:defult.JPG:아스테리온:아이리스양 반가워요
+ballroom.png:defult.png:아스테리온:아이리스양 반가워요
 ballroom.png:expression_buree.png:록스버그:아스테리온씨 눈에는 제가 안 보이나 보네요?
 ballroom.png:first.JPEG:아스테리온:앗….죄송해요 반가운 마음에 하하
 ballroom.png:expression_buree.png:록스버그: 저는 별로 반갑지 않나보네요?
-ballroom.png:defult.JPG:아스테리온:아이~ 그런 뜻 아닌거 아시면서~~~ 록스버그양이 초대해주신거니까 오실걸 알았지만 아이리스양은 오실지 몰랐으니까…
+ballroom.png:defult.png:아스테리온:아이~ 그런 뜻 아닌거 아시면서~~~ 록스버그양이 초대해주신거니까 오실걸 알았지만 아이리스양은 오실지 몰랐으니까…
 ballroom.png:expression_buree.png:록스버그:하…잡담은 그만하고 들어가죠
 ballroom.png:expression_buree.png:록스버그:'내가 이러는건 다 아이리스 때문이야. 나도 너의 치부를 건들고 싶진 않았어.'
 ballroom.png:smile_dung.png:아이리스:오늘 파티도 분명 재밌을거야! 아스테리온씨까지 있으니 더더 재밌겠지?
@@ -25,7 +25,7 @@ ballroom.png:derision_buree.png:록스버그:(말을 끊으며) 덩양 코 수�
 ballroom.png:friend_2.jpg:친구 2:엄청 아프다는데 진짜 독하게 그걸 또 하더라고요~~~
 ballroom.png:friend_1.jpg:친구 1:저 예전 초상화 있는데 보실래요?
 ballroom.png:angry_dung.png:아이리스:(얼굴이 빨개지며) 지금 뭐하는…!!!
-ballroom.png:first.JPEG:아스테리온:'엇…난 어떻게 반응해야하지…?'
+ballroom.png:first.png:아스테리온:'엇…난 어떻게 반응해야하지…?'
 $[]
 1.? 아이리스양은 코가 없는걸요?:20
 2.헐 보여주세요! 너무 궁금하다:20

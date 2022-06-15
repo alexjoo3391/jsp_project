@@ -3,81 +3,81 @@ yyschool.jpg:::너무 평범한 나머지 흔한 로판 클리셰에 빠져버�
 yyschool.jpg:::내가 왜 이딴 곳에서 시비를 털리고 있는가…
 yyschool.jpg:none.jpg:??:선배님 잘 부탁드립니다~
 yyschool.jpg:none.jpg:!!:선배님이 조장하시면 되겠다~~~
-yyschool.jpg:defult.JPG:주정환:그래…
+yyschool.jpg:defult.png:주정환:그래…
 yyschool.jpg:::나는 중간고사 대신 조별과제라는 최악의 상황에 놓여있었다.
 yyschool.jpg:::그나마 팀원이 다 여후배였기에 조금… 많이는 아니고 아주 조금 나도 연애를 하게 되나...? 하고 기대감을 품었다.
 yyschool.jpg:::응… 정말 기대만 했고 현실은 만만치 않았다.
-room.png:defult.JPG:주정환:??아 구성은 다 했니?
+room.png:defult.png:주정환:??아 구성은 다 했니?
 room.png:::...싸늘하다…
-room.png:defult.JPG:주정환:!!아 너는 다 했니?
+room.png:defult.png:주정환:!!아 너는 다 했니?
 room.png:::...잠수다. 잠수가 분명하다.
 room.png:::나는 빠른 포기와 함께 대충 구상해두었던 게임을 만들기 시작했다.
 room.png:::‘타닥타닥’
 room.png:::‘탁탁탁’
-room.png:defult.JPG:주정환:아~ 진짜 하기 싫다. 내가 이걸 왜 혼자 다 하고 있지? 하… 그냥 롤이나 한 판 해야겠다.
+room.png:defult.png:주정환:아~ 진짜 하기 싫다. 내가 이걸 왜 혼자 다 하고 있지? 하… 그냥 롤이나 한 판 해야겠다.
 room.png:::정환은 롤을 키기 위해 마우스를 움직였다.
 room.png:::‘딸칵딸칵’
-room.png:defult.JPG:주정환:뭐야 왜 안켜져
+room.png:defult.png:주정환:뭐야 왜 안켜져
 room.png:::‘딸칵딸칵딸칵딸칵’
-room.png:defult.JPG:주정환:어…??? 아악!!!
+room.png:defult.png:주정환:어…??? 아악!!!
 slum.png:::그렇게 나는 이곳에 왔다. 신이 있다면 분명히 날 싫어한다. 아니라면 어째서 나를 이곳에 떨어뜨렸을까. 아니면 하다못해 남자 주인공처럼 공작. 백작 이런걸 시켜주면 얼마나 좋겠냐고…
 slum.png:gangster_1.jpg:깡패 1:야. 너 못보던 얼굴이다??
-slum.png:defult.JPG:주정환:...
+slum.png:defult.png:주정환:...
 slum.png:gangster_2.jpg:깡패 2:야!!! 너 우리 무시하냐??
-slum.png:defult.JPG:주정환:(두리번거리며) 저요?
+slum.png:defult.png:주정환:(두리번거리며) 저요?
 slum.png:gangster_1.jpg:깡패 1:그래 너말이야 너~
 slum.png:gangster_2.jpg:깡패 2:너 옷이 좀 좋아 보이네? 그거 나 주라
-slum.png:fever.JPEG:주정환:아… 안돼요. 
+slum.png:fever.png:주정환:아… 안돼요. 
 slum.png:gangster_1.jpg:깡패 1:내가 달라하면 주는거지 뭐 말이 많아??? 
 slum.png:::그렇게 말한 깡패가 나를 향해서 팔을 크게 휘둘렀다.
-slum.png:defult.JPG:주정환:'아 조졌다. 저거에 맞으면 분명 엄청 아프겠지…? 하 신이 있다면 정답을 알려줘'
+slum.png:defult.png:주정환:'아 조졌다. 저거에 맞으면 분명 엄청 아프겠지…? 하 신이 있다면 정답을 알려줘'
 slum.png:::나는 방어를 하기 위해 팔을 올렸고 내 팔에 맞은 깡패는…???
 slum.png:gangster_1.jpg:깡패 1:어억!!!
 slum.png:::날아갔다... 멀리멀리...
 slum.png:::나 사실 남주일지도…?
 slum.png:knight.png:기사:야 깡패놈들아!!! 내가 한번만 더 사고치면…어?
-slum.png:defult.JPG:주정환:아..안녕하세요? 하핫
+slum.png:defult.png:주정환:아..안녕하세요? 하핫
 slum.png:knight.png:기사:이게 무슨…그쪽이 하신거에요?
-slum.png:defult.JPG:주정환:네..어쩌다 보니까요..하핫
+slum.png:defult.png:주정환:네..어쩌다 보니까요..하핫
 slum.png:knight.png:기사:혹시 어느 소속 기사신가요? 
-slum.png:defult.JPG:주정환:아 저 기사 아닌데요. 저 공대생이에요 ㅎㅎ yy대학교라고 명문 대학교 모르세요?
+slum.png:defult.png:주정환:아 저 기사 아닌데요. 저 공대생이에요 ㅎㅎ yy대학교라고 명문 대학교 모르세요?
 slum.png:knight.png:기사: 그게 뭔대요? 공대생?
-slum.png:defult.JPG:주정환:그냥 저같이 멋진 사람을 공대생이라고 합니다.
+slum.png:defult.png:주정환:그냥 저같이 멋진 사람을 공대생이라고 합니다.
 slum.png:knight.png:기사:아… 그렇군요; 일단 소속이 없으시다는거죠?
-slum.png:defult.JPG:주정환:예
+slum.png:defult.png:주정환:예
 slum.png:knight.png:기사:그럼 저희 기사단은 어떠세요?
-slum.png:defult.JPG:주정환:음 구경이나 함 해보죠
+slum.png:defult.png:주정환:음 구경이나 함 해보죠
 slum.png:::정환이 길을 나서려는데 바닥에서 이상한 칼을 주웠다. 일단 챙겨보기로 하였다.
 slum.png:::(지옥참마도 획득)
-dark_forest.png:defult.JPG:주정환:오…
+dark_forest.png:defult.png:주정환:오…
 dark_forest.png:knight.png:기사:어때요? 들어오고 싶어졌죠?
-dark_forest.png:defult.JPG:주정환:아뇨. 근데 저 말은 좀 타보고 싶네요
+dark_forest.png:defult.png:주정환:아뇨. 근데 저 말은 좀 타보고 싶네요
 dark_forest.png:knight.png:기사:그럼 저희가 행진중인데 저 말 타고 기사체험한다 생각하고~ 같이 가실래요?
-dark_forest.png:defult.JPG:주정환:네… 뭐. 좋아요
+dark_forest.png:defult.png:주정환:네… 뭐. 좋아요
 dark_forest.png:::사실 평범한 행진이 아닌 용을 잡으러 가는 중이었다.
 dark_forest.png:::그 사실을 모르는 정환은 마냥 즐겁게 말을 타고 따라갔다.
-dark_forest.png:defult.JPG:주정환:얼마나 더 가야하나요?
+dark_forest.png:defult.png:주정환:얼마나 더 가야하나요?
 dark_forest.png:knight.png:기사:거의 다 왔습니다
-dark_forest.png:defult.JPG:주정환:…?저 커다란건 뭐죠…?
+dark_forest.png:defult.png:주정환:…?저 커다란건 뭐죠…?
 dragon_forest.png:::야생의 용이 나타났다!!
 dragon_forest.png:knight.png:기사:저희가 잡으려는 용입니다!!!
-dragon_forest.png:defult.JPG:주정환:???????
+dragon_forest.png:defult.png:주정환:???????
 dragon_forest.png:::용이 정환에게 다가온다.
-dragon_forest.png:defult.JPG:주정환:어…어떡해요??
-dark_forest.png:knight.png:기사:어…도망가야죠…?
+dragon_forest.png:defult.png:주정환:어…어떡해요??
+dragon_forest.png:knight.png:기사:어…도망가야죠…?
 dragon_forest.png:::기사는 재빠르게 도망갔지만 정환은 놀라 몸이 굳어버렸다.
-dragon_forest.png:defult.JPG:주정환:’아…조졌다…’
+dragon_forest.png:defult.png:주정환:’아…조졌다…’
 dragon_forest.png:::정환은 조진김에 발악이라도 해보자 싶어서 아까 주웠던 지옥 참마도를 꺼내들었다
-dragon_forest.png:hell_sword.JPEG:주정환:뭔가 이 말을 하고 휘둘려야할 것 같네?…할매…내 다신 이 칼을 꺼내지 않기로 하였는데…
+dragon_forest.png:hell_sword.png:주정환:뭔가 이 말을 하고 휘둘려야할 것 같네?…할매…내 다신 이 칼을 꺼내지 않기로 하였는데…
 yonggary.png:::지옥참마도를 휘두른 순간 용이 반으로 갈라지면서 용가리 치킨이 되었다.
 dark_forest.png:knight.png:기사:해치웠…
-dark_forest.png:hell_sword.JPEG:주정환:입 다물어요;;; 그런 말을 하니까 용이 나타나지
+dark_forest.png:hell_sword.png:주정환:입 다물어요;;; 그런 말을 하니까 용이 나타나지
 throne.png:::그렇게 정환은 얼떨결에 나라를 지킨 용사가 되어버렸고 그런 그가 작위하나 없는게 말이 되냐며 왕이 기사작위를 주기로 한다.
 throne_knight.png:queen.jpg:여왕:용을 무찌른 이…
-throne_knight.png:queen.jpg:주정환:…?
+throne_knight.png:defult.png:주정환:…?
 throne_knight.png:queen.jpg:여왕:...이름이 무엇이냐
 throne_knight.png:::아… 그 ‘주정환이라고 하면 너무 동양적인데. 나 막 마녀… 아니 마남으로 몰려서 죽으면 어떡하지’
-throne_knight.png:defult.JPG:주정환:음 아스테리온 J.환으로 할게ㅇ... 아니. 이에요.
+throne_knight.png:defult.png:주정환:음 아스테리온 J.환으로 할게ㅇ... 아니. 이에요.
 throne_knight.png:::정환은 저 구린 이름이 간지난다고 생각하며 뿌듯해했다.
 throne_knight.png:queen.jpg:여왕:아 그래… 어쨋든 용을 무찌른 이 용맹한 아스테리온 J.환에게 기사작위를 내리겠다.
 throne_knight.png:::주변의 관중들은 박수를 치며 축하했고 그 중에는
@@ -94,9 +94,9 @@ ballroom.png:smile_buree.png:록스버그 3세 부리: 음…일단 당신의 �
 ballroom.png:shock.jpg:아스테리온:...? 예?
 ballroom.png:::록스버그는 웃으며 샴페인을 건냈다.
 ballroom.png:::아스테리온은 얼떨결에 그것을 받아 마셨고 취했다.
-ballroom.png:shame.JPG:아스테리온: 제가 알쓰가 아니거든요~~ 그리고 제가 군대에서 진짜 힘들었어요…~ 선임이랑 친해가지고~~ 그리고 학창시절에 축구를 그렇게 잘했어요~ 옆에 학교 여학생들이 저 보려고 오고 그랬어요~~
+ballroom.png:shame.png:아스테리온: 제가 알쓰가 아니거든요~~ 그리고 제가 군대에서 진짜 힘들었어요…~ 선임이랑 친해가지고~~ 그리고 학창시절에 축구를 그렇게 잘했어요~ 옆에 학교 여학생들이 저 보려고 오고 그랬어요~~
 ballroom.png:smile_buree.png:록스버그 3세 부리:아 그래요? 그보다 내 친구도 소개해줄게요 좋은 애예요.
-ballroom.png:shame.JPG:아스테리온: 그래요~~ 당신의 친구라면 당신처럼 친절하겠죠
+ballroom.png:shame.png:아스테리온: 그래요~~ 당신의 친구라면 당신처럼 친절하겠죠
 ballroom.png:smile_buree.png:록스버그 3세 부리:(얼굴을 붉히며) 나 별로 안친절해요.. 당신이라서 그런…
 ballroom.png:expression_dung.png:아이리스: 어? 부리양!
 ballroom.png:::그때 아이리스가 분위기를 와장창 깨며 록스버그에게 다가왔다.
@@ -105,20 +105,20 @@ ballroom.png:expression_dung.png:아이리스:(의아해하며)우리 어제도 
 ballroom.png:smile_buree.png:록스버그 3세 부리: (횡설수설하며) 아 맞다... 그랬었죠... 그리고 괜찮아요!
 ballroom.png:expression_dung.png:아이리스:혹시 힘들면 말해야해요...! 어? 저 분은 누구신가요?
 ballroom.png:smile_buree.png:록스버그 3세 부리: 어머 제가 경황이 없어서..하하 이쪽은 이번에 기사작위를 받은 아스테리온 J.환씨예요.
-ballroom.png:shame.JPG:아스테리온:안녕하세요! 주정 아니 아스테리온입니다~~~
+ballroom.png:shame.png:아스테리온:안녕하세요! 주정 아니 아스테리온입니다~~~
 ballroom.png:expression_dung.png:아이리스:(한심하게 보며) 아… 네... 저는 아이리스 백작가의 아이리스 에밀리 덩이에요. 
 ballroom.png:smile_buree.png:록스버그 3세 부리: 저는 잠시 아버지께 다녀올게요
-ballroom.png:shame.JPG:아스테리온: 샴페인 한 잔 하실래요?
+ballroom.png:shame.png:아스테리온: 샴페인 한 잔 하실래요?
 ballroom.png:expression_dung.png:아이리스:음 그래요
 ballroom.png:::하지만 아이리스 또한 알쓰였고 같이 취해버렸다.
 ballroom.png:smile_dung.png:아이리스:정말요? 아하하하하하
-ballroom.png:shame.JPG:아스테리온:그렇다니까요~~~
+ballroom.png:shame.png:아스테리온:그렇다니까요~~~
 ballroom.png:smile_buree.png:록스버그 3세 부리:저 왔…
 ballroom.png:::록스버그는 둘이 친해진 것을 보고 왠지 모를 위기감을 느꼈다.
 ballroom.png:smile_dung.png:아이리스:어! 부리양~~ 어서와요~ 아하하하 리온씨 너무 웃긴거 있죠!
-ballroom.png:shame.JPG:아스테리온:제가 재밌어봤자 덩양 발 끝도 못 미치죠~ 사람이 너무 엉뚱하고 재밌어요
+ballroom.png:shame.png:아스테리온:제가 재밌어봤자 덩양 발 끝도 못 미치죠~ 사람이 너무 엉뚱하고 재밌어요
 ballroom.png:silmang_buree.png:록스버그 3세 부리:그래요...? 아하하... 저는 이만 가볼게요 몸이 안 좋네요...
-ballroom.png:shame.JPG:아스테리온:그래요? 아쉽네요
+ballroom.png:shame.png:아스테리온:그래요? 아쉽네요
 ballroom.png:smile_dung.png:아이리스:아까 얼굴이 빨갰던 게 역시 열이 나서 그런거였죠?  빨리 들어가봐요
-ballroom.png:silmang_buree.png:네… 재밌게 놀다가요...!
+ballroom.png:silmang_buree.png:록스버그 3세 부리:네… 재밌게 놀다가요...!
 ballroom.png:::록스버그가 간 후에 둘은 더 놀다가 헤어졌다.
