@@ -10,14 +10,14 @@
 	.win {
 		width: 100vw;
         height: 100vh;
-		background-image: url("resources/image/minigame_win.png");
+		background-image: url("resources/image/background/minigame_win_background.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
 	.lose {
 		width: 100vw;
         height: 100vh;
-		background-image: url("resources/image/minigame_lose.png");
+		background-image: url("resources/image/background/minigame_lose_background.png");
 		background-repeat : no-repeat;
         background-size : cover;
 	}
@@ -40,7 +40,8 @@
 		if (resultOK) {
 	%>
 	
-	<div id="win">
+	<div>
+		<img src="resources/image/background/minigame_win_background.png" class="win">
 		<h3>
 			!!! <br>
 			이걸 어떻게 맞췄지!!! <br> 
@@ -56,7 +57,8 @@
 		} else if (!resultOK) {
 	%>
 	
-	<div id="lose">
+	<div>
+		<img src="resources/image/background/minigame_lose_background.png" class="lose">
 		<h3>
 			풉, 아 미안. <br>
 			난 정중한 다람쥐- 웃으면 안됐었는데 미안하게 됐소. <br>

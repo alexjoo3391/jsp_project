@@ -33,6 +33,10 @@
 	button {
 		background: url("resources/image/background/startBtn_background.png") no-repeat;
 	}
+	.minigame_img {
+		width: 100vw;
+		height: 100vh;
+	}
 </style>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/script.js"></script>
@@ -61,6 +65,7 @@
     
    	<!-- 미니게임 도입부 -->
     <div class="minigame">
+    	<img src="resources/image/background/minigame_start_2_background.png" class="minigame_img">
     	<h3>  
 			어이어이, 기사 양반... 여기는 내 구역인데 어딜 마음대로 들어오려 하나- <br>
 			나랑 게임을 하나 해서 이겨야 올라갈 수 있게 해주지 <br>
