@@ -34,6 +34,11 @@
 		background: url("resources/image/background/startBtn_background.png") no-repeat;
 		background-size : cover;
 	}
+	.text2 {
+		position: absolute;
+    	top: 0;
+    	left: 18%;
+	}
 	.minigame_img {
 		width: 100vw;
 		height: 100vh;
@@ -98,7 +103,7 @@
             <p></p>
         </div>
         <div class="text text-<%= i %>">
-            <p></p>
+            <p class="text2"></p>
         </div>
     </div>
 <%
