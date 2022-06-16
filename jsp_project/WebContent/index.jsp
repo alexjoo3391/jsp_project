@@ -15,6 +15,8 @@
 	}
 	button {
 		background: url("resources/image/background/startBtn_background.png") no-repeat;
+		 background-size : cover;
+		 background-position: center;
 	}
 </style>
 </head>

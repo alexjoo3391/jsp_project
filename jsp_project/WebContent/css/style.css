@@ -280,6 +280,8 @@ button:hover {
 }
 
 .episode {
+	    position: absolute;
+    left: -15vw;
 	display: none;
 	cursor: pointer;
 	color: white;

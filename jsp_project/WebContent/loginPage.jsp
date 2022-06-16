@@ -12,6 +12,7 @@
 		background-image: url("resources/image/background/login_background.png");
 		background-repeat: no-repeat;
         background-size : cover;
+        position: relative;
 	}
 	.backBtn {
 		background: url("resources/image/background/backBtn_background.png") no-repeat;
@@ -21,7 +22,16 @@
 	}
 	#lpPasswordBtn {
 		background: url("resources/image/background/pwdBtn_background.png") no-repeat;
+		position: absolute;
+    	top: 78vh;
+    	left: 50vw;
 	}
+	#lpLoginBtn {
+	 	position: absolute;
+    	top: 78vh;
+    	left: 38vw;
+	}
+	
 </style>
 </head>
 <body>

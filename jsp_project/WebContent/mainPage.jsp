@@ -28,6 +28,10 @@
 	body {
 		background-repeat : no-repeat;
         background-size : cover;
+        overflow:hidden;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
 	}
 	
 	button {

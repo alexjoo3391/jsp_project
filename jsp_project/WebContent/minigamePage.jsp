@@ -7,6 +7,14 @@
 <title>남주의 복지를 책임지겠습니다</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
+	body {
+		background-repeat : no-repeat;
+        background-size : cover;
+        overflow:hidden;
+        height: 100vh;
+        width: 100vw;
+	}
+	
 	.win {
 		width: 100vw;
         height: 100vh;
@@ -27,15 +35,7 @@
 	}
 </style>
 </head>
-<script>
-	function next() {
-		let checkpoint = JSON.parse(sessionStorage.getItem("checkpoint"));
-		checkpoint[1] = checkpoint[1] + 1;
-		sessionStorage.setItem("checkpoint", JSON.stringify(checkpoint));
-		window.location = document.referrer;
-	}
 
-</script>
 <body>
 
 	<%
@@ -79,5 +79,14 @@
 		}
 	%>
 
+<script>
+	function next() {
+		window.location = document.referrer;
+		let checkpoint = JSON.parse(sessionStorage.getItem("checkpoint"));
+		checkpoint[1] = checkpoint[1] + 1;
+		sessionStorage.setItem("checkpoint", JSON.stringify(checkpoint));
+	}
+
+</script>
 </body>
 </html>
