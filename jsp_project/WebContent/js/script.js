@@ -2,7 +2,7 @@ window.onload = () => {
     const body = document.querySelector('body');
 	const event = document.createEvent('Event');
 	event.initEvent('keydown', false, true);
-	event.key = ' ';
+	event.key = ' '; // 키 다운 이벤트 설정
     let profileImg = document.querySelector('.profile img');
     let profileTxt = document.querySelector('.profile p');
     let scriptTxt = document.querySelector('.text p')
@@ -12,14 +12,14 @@ window.onload = () => {
     let cnt = 1;
     let id = 0;
 	
-	if(sessionStorage.getItem('checkpoint')) {
-		checkpoint = JSON.parse(sessionStorage.getItem('checkpoint'));
+	if(sessionStorage.getItem('checkpoint')) { // 세션 아이템 확인
+		checkpoint = JSON.parse(sessionStorage.getItem('checkpoint')); // 세션에 값이 있으면 변수에 저장 
 	}
 	
 	id = checkpoint[0];
 	cnt = checkpoint[1] - 1;
 	
-	if(id > 0) {
+	if(id > 0) { // 세션에 값이 있어 에피소드가 달라지면 변수들 새로 설정
 		document.querySelectorAll('.text-container').forEach(element => {
             element.style.display = 'none';
         });
@@ -34,7 +34,7 @@ window.onload = () => {
 
     document.addEventListener("keydown", (e) => { // 키다운 이벤트 감지
         if(e.key === ' ') { // 입력한 키가 ' '거나 cnt가 리스트의 길이보다 작으면
-			if(cnt === -1) {
+			if(cnt === -1) { // 세션 값이 0이면 대기화면
 				document.querySelectorAll('.text-container').forEach(element => {
                     element.style.display = 'none';
                 });
@@ -53,6 +53,7 @@ window.onload = () => {
                     }
                     document.querySelectorAll('a.option').forEach(element => {
                         element.addEventListener("click", (e) => {
+                        	// db에 저장하기 위해서 form태그 생성
                             let love = element.getAttribute("data-option");
                             let form = document.createElement('form');
                             let input = document.createElement('input');
@@ -69,11 +70,16 @@ window.onload = () => {
                         })
                     })
                     cnt++;
-                } else if(str[cnt][0] === ">") {  
+                } else if(str[cnt][0] === ">") {  // 미니게임 부분
 					document.querySelectorAll('.text-container').forEach(element => {
 	                    element.style.display = 'none';
                 	});
 					document.querySelector('.minigame').style.display = 'block';
+					if(sessionStorage.getItem('minigame') === 1) {
+						sesisonStorage.setItem('minigame', 0);
+						cnt++;
+						document.dispatchEvent(event);
+					}
 				} else {
                     let text = str[cnt].split(":"); // 문장을 분해해서 변수에 저장
                     body.style.backgroundImage = "url('resources/image/illustration/" + text[0] + "')";

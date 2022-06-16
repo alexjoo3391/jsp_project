@@ -81,10 +81,8 @@
 
 <script>
 	function next() {
-		window.location = document.referrer;
-		let checkpoint = JSON.parse(sessionStorage.getItem("checkpoint"));
-		checkpoint[1] = checkpoint[1] + 1;
-		sessionStorage.setItem("checkpoint", JSON.stringify(checkpoint));
+		sessionStorage.setItem("minigame", 1);
+		window.history.back();
 	}
 
 </script>
