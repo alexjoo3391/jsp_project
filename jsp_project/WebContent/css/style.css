@@ -342,11 +342,29 @@ h3 {
     position: absolute;
     width: 75vw;
     height: 25vh;
-    top: 68vh;
+    top: 65vh;
     left: 13vw;
+}
+
+#inputTextbox {
+    position: absolute;
+    top: 53vh;
+    left: 13vw;
+    width: 20vw;
+    height: 10vh;
+    font-size: 30px;
+}
+
+#okBtn {
+    position: absolute;
+    top: 53.5vh;
+    left: 35vw;
+    width: 5vw;
+    height: 10vh;
 }
 
 .nextBtn {
     position: absolute;
-    left: 50vw;
+    top: 58vh;
+    left: 75vw;
 }

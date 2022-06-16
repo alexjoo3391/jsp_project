@@ -32,10 +32,15 @@
 	
 	button {
 		background: url("resources/image/background/startBtn_background.png") no-repeat;
+		background-size : cover;
 	}
 	.minigame_img {
 		width: 100vw;
 		height: 100vh;
+	}
+	.submitBtn {
+		background: url("resources/image/background/subBtn_background.png") no-repeat;
+		background-size : cover;
 	}
 </style>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -72,8 +77,8 @@
 			여기 3개의 호두가 있는데... 속이 들어있는 호두가 뭘지 맞춰봐
 		</h3>
 		<form action="/minigamePage" method="post">
-			<input type="text" name="input" placeholder="1, 2, 3 중에 하나를 입력해 주세요.">
-			<input type="submit" value="결정">
+			<input type="text" name="input" placeholder="1, 2, 3 중에 하나를 입력해 주세요." id="inputTextbox">
+			<input type="submit" value="결정" id="okBtn" class="submitBtn">
 		</form>
     </div>
 	

@@ -21,6 +21,10 @@
 		background-repeat : no-repeat;
         background-size : cover;
 	}
+	button {
+		background: url("resources/image/background/subBtn_background.png") no-repeat;
+		background-size : cover;
+	}
 </style>
 </head>
 <script>
@@ -50,7 +54,7 @@
 			그녀의 얼굴에서 미소가 떠나는 날이 없도록 그녀를 잘 보살펴주도록 해... <br>
 			아디오스-
 		</h3>
-		<button onclick="next()">다음으로</button>
+		<button onclick="next()" class="nextBtn">다음으로</button>
 	</div>
 	
 	<%
