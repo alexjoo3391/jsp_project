@@ -34,6 +34,9 @@ public class SignoutServlet extends HttpServlet {
 		
 		if (result > 0) {
 			out.println("<script> alert('회원탈퇴가 완료되었습니다.'); window.location.href='/index.jsp'; </script>");
+			session = request.getSession();
+			session.setAttribute("loginOK", null);
+			response.sendRedirect("/index.jsp");
 		} else {
 			out.println("<script> alert('회원탈퇴에 실패하였습니다.'); history.back(); </script>");
 		}

@@ -49,4 +49,4 @@ $
 tea_party.png:::아이리스는 그의 대처방법이 어이가 없었지만 고마움을 느꼈다.
 tea_party.png:smile_dung.png:아이리스:아스테리온씨 고마워요… 하하
 youwelcom.png::아스테리온:뭐 이런 일로! 유웰컴…☆
-tea_party.png:smile_dung.png:아이리스:그게 뭐예요~ 하하하핫
+youwelcom.png::아이리스:그게 뭐예요~ 하하하핫

@@ -15,7 +15,7 @@ public class MemberDAO {
 	
 	// 유저 정보를 삽입하는 메소드
 	public int insertUser(String id, String pwd) {
-		String sql = "INSERT INTO member VALUES(?, ?, ?, ?, ?, ?)";
+		String sql = "INSERT INTO member VALUES(?, ?, ?, ?)";
 		conn = JDBCUtil.getConnection();
 		
 		int result = 0;
@@ -25,9 +25,7 @@ public class MemberDAO {
 			pstmt.setString(1, id);
 			pstmt.setString(2, pwd);
 			pstmt.setInt(3, 0);
-			pstmt.setString(4, null);
-			pstmt.setInt(5, 0);
-			pstmt.setInt(6, 0);
+			pstmt.setInt(4, 0);
 			result = pstmt.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
