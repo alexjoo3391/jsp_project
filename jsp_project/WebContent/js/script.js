@@ -8,7 +8,7 @@ window.onload = () => {
     let scriptTxt = document.querySelector('.text p')
     let str = document.querySelector('input#list').value // value에 값이 들어있는 input태그를 불러온다
     str = str.substring(1, str.length - 1).split(', '); // object타입으로 저장되서 양쪽에 붙어있는 '[',']'을 제거해서 리스트로 저장한다
-	let checkpoint = [0, 1];
+	let checkpoint = [0, 1, 0, 0]; // 현재 에피소드, 현재 페이지, 잠금 해제 에피소드, 호감도
     let cnt = 1;
     let id = 0;
 	
@@ -77,7 +77,7 @@ window.onload = () => {
 					document.querySelector('.minigame').style.display = 'block';
 					if(sessionStorage.getItem('minigame') === 1) {
 						sesisonStorage.setItem('minigame', 0);
-						cnt++;
+						cnt += 2;
 						document.dispatchEvent(event);
 					}
 				} else {
@@ -123,24 +123,17 @@ window.onload = () => {
             str = str.substring(1, str.length - 1).split(', ');
             cnt = 0;
 
-			if(id === 7) {
-				let love = sessionStorage.getItem("love");
+			console.log(id);
+			if(id == 7) {
+				console.log(id);
+				let love = checkpoint[3];
 				while(str.length > cnt) {
 					if(str[cnt][0] == '#') {
 						cnt++;
-						str[cnt] < love;
-						while(str[cnt][0] != '#') {
-							document.addEventListener("keydown", (e) => {
-								if(e.key === ' ') {
-									cnt++;
-									let text = str[cnt].split(":");
-				                    body.style.backgroundImage = "url('resources/image/illustration/" + text[0] + "')";
-				                    profileImg.src = "resources/image/illustration/" + (text[1] === "" ? "no_profile.png" : text[1]);
-									profileTxt.innerHTML = text[2]; 
-				                    scriptTxt.innerHTML = text[3];
-								}	
-							})
-						}	
+						if(str[cnt] < love) {
+							console.log(str[cnt], cnt);
+							break;
+						}
 					}
 					cnt++;
 				}

@@ -26,11 +26,10 @@
 %>
 
 <script>
-	sessionStorage.setItem("love", <%= love %>);
+	let checkpoint = sessionStorage.getItem("checkpoint");
+	checkpoint[3] = <%= love %>;
+	sessionStorage.setItem("checkpoint", checkpoint);
+	window.history.back();
 </script>
-
-<%
-	out.print("<script>window.history.back();</script>");
-%>
 </body>
 </html>

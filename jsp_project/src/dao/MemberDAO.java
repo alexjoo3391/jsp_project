@@ -177,4 +177,27 @@ public class MemberDAO {
 		
 		return result;
 	}
+	
+	public int getCheckpoint(String id) {
+		String sql = "SELECT check_point FROM member WHERE id=?";
+		int result = -1;
+		
+		conn = JDBCUtil.getConnection();
+		
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, id);
+			rs = pstmt.executeQuery();
+			
+			if (rs.next()) {
+				result = rs.getInt(1);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtil.close(conn, pstmt, rs);
+		}
+		
+		return result;
+	}
 }
